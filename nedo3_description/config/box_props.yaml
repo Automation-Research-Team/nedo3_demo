@@ -1,0 +1,49 @@
+SP362H:
+  width: 0.67
+  length: 0.335
+  height: 0.195
+  bottom_thickness: 0.013
+  side_thickness: 0.017
+  margin: 0.030
+SP8486:
+  width: 0.335
+  length: 0.335
+  height: 0.103
+  bottom_thickness: 0.013
+  side_thickness: 0.017
+  margin: 0.030
+SPR36211H:
+  width: 0.67
+  length: 0.335
+  height: 0.195
+  bottom_thickness: 0.013
+  side_thickness: 0.017
+  margin: 0.030
+TP331:
+  width: 0.335
+  length: 0.335
+  height: 0.103
+  bottom_thickness: 0.013
+  side_thickness: 0.017
+  margin: 0.010
+TP332:
+  width: 0.335
+  length: 0.335
+  height: 0.195
+  bottom_thickness: 0.013
+  side_thickness: 0.017
+  margin: 0.010
+TP342:
+  width: 0.335
+  length: 0.503
+  height: 0.195
+  bottom_thickness: 0.013
+  side_thickness: 0.017
+  margin: 0.030
+TP342H:
+  width: 0.503
+  length: 0.335
+  height: 0.195
+  bottom_thickness: 0.013
+  side_thickness: 0.017
+  margin: 0.030

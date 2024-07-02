@@ -1,0 +1,25 @@
+rack_t0:
+  width: 0.85
+  box_separation: 0.01
+  upper: [part_22, part_8]
+  lower: [part_1, part_2]
+rack_t1:
+  width: 0.85
+  box_separation: 0.01
+  upper: [part_44, part_43]
+  lower: [part_3, part_4]
+rack_t2:
+  width: 0.85
+  box_separation: 0.01
+  upper: [part_42, part_41]
+  lower: [part_5, part_9]
+rack_t3:
+  width: 0.85
+  box_separation: 0.01
+  upper: [part_18, part_19]
+  lower: [part_23, part_26]
+rack_t4:
+  width: 0.85
+  box_separation: 0.01
+  upper: [part_20, part_21]
+  lower: []

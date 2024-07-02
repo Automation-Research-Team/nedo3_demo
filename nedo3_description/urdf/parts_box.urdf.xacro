@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+  <xacro:macro name="parts_box"
+	       params="name width length height
+		       bottom_thickness side_thickness parent
+		       joint_type:=fixed *origin">
+
+    <xacro:macro name="my_box"
+		 params="name width length height parent
+			 joint_type:=fixed transparent:=false *origin">
+
+      <link name="${name}">
+	<!-- w is in x, l is in y, h is in z -->
+	<visual>
+          <origin xyz="${width/2} ${length/2} ${height/2}" rpy="0 0 0"/>
+          <geometry>
+            <box size="${width} ${length} ${height}"/>
+          </geometry>
+          <material name="orange">
+            <color rgba="1 0.5088 0.0468 1"/>
+          </material>
+	</visual>
+	<collision>
+          <origin xyz="${width/2} ${length/2} ${height/2}" rpy="0 0 0"/>
+          <geometry>
+            <box size="${width} ${length} ${height}"/>
+          </geometry>
+	</collision>
+
+	<!-- This is required for Gazebo. -->
+	<inertial>
+          <mass value="1.0"/>
+          <origin xyz="${width/2} ${length} ${height/2}" rpy="0 0 0"/>
+          <inertia ixx="0.0" ixy="0.0" ixz="0.0"
+		   iyy="0.0" iyz="0.0" izz="0.0"/>
+	</inertial>
+      </link>
+      <gazebo reference="${name}">
+	<material>Gazebo/Orange</material>
+      </gazebo>
+
+      <joint name="${name}" type="${joint_type}">
+	<parent link="${parent}"/>
+	<child  link="${name}"/>
+	<axis   xyz="0 0 1"/>
+	<xacro:insert_block name="origin"/>
+      </joint>
+    </xacro:macro>
+
+
+    <xacro:my_box name="${name}" width="${width}" length="${length}"
+		  height="${bottom_thickness}" parent="${parent}"
+		  joint_type="${joint_type}">
+      <xacro:insert_block name="origin"/>
+    </xacro:my_box>
+
+    <xacro:my_box name="${name}_frontside"
+		  width="${width}" length="${side_thickness}"
+		  height="${height - bottom_thickness}" parent="${name}">
+      <origin xyz="0 0 ${bottom_thickness}" rpy="0 0 0"/>
+    </xacro:my_box>
+
+    <xacro:my_box name="${name}_backside"
+		  width="${width}" length="${side_thickness}"
+		  height="${height - bottom_thickness}" parent="${name}">
+      <origin xyz="0 ${length - side_thickness} ${bottom_thickness}"
+	      rpy="0 0 0"/>
+    </xacro:my_box>
+
+    <xacro:my_box name="${name}_leftside"
+		  width="${side_thickness}"
+		  length="${length - 2*side_thickness}"
+		  height="${height - bottom_thickness}" parent="${name}">
+      <origin xyz="0 ${side_thickness}  ${bottom_thickness}" rpy="0 0 0"/>
+    </xacro:my_box>
+
+    <xacro:my_box name="${name}_rightside"
+		  width="${side_thickness}"
+		  length="${length - 2*side_thickness}"
+		  height="${height - bottom_thickness}" parent="${name}">
+      <origin xyz="${width - side_thickness}
+		   ${side_thickness}
+		   ${bottom_thickness}"
+	      rpy="0 0 0"/>
+    </xacro:my_box>
+
+    <link name="${name}_bottom"/>
+    <joint name="${name}_bottom_joint" type="fixed">
+      <parent link="${name}"/>
+      <child  link="${name}_bottom"/>
+      <origin xyz="${side_thickness} ${side_thickness} ${bottom_thickness}"
+	      rpy="0 0 0"/>
+    </joint>
+
+    <link name="${name}_center_bottom"/>
+    <joint name="${name}_center_bottom_joint" type="fixed">
+      <parent link="${name}"/>
+      <child  link="${name}_center_bottom"/>
+      <origin xyz="${width/2} ${length/2} ${bottom_thickness}" rpy="0 0 0"/>
+    </joint>
+
+    <link name="${name}_lower_left_top"/>
+    <joint name="${name}_lower_left_top_joint" type="fixed">
+      <parent link="${name}"/>
+      <child  link="${name}_lower_left_top"/>
+      <origin xyz="0 0 ${height}" rpy="0 0 0"/>
+    </joint>
+
+    <link name="${name}_lower_right_top"/>
+    <joint name="${name}_lower_right_top_joint" type="fixed">
+      <parent link="${name}"/>
+      <child  link="${name}_lower_right_top"/>
+      <origin xyz="${width} 0 ${height}" rpy="0 0 0"/>
+    </joint>
+
+    <link name="${name}_upper_left_top"/>
+    <joint name="${name}_upper_left_top_joint" type="fixed">
+      <parent link="${name}"/>
+      <child  link="${name}_upper_left_top"/>
+      <origin xyz="0 ${length} ${height}" rpy="0 0 0"/>
+    </joint>
+
+    <link name="${name}_upper_right_top"/>
+    <joint name="${name}_upper_right_top_joint" type="fixed">
+      <parent link="${name}"/>
+      <child  link="${name}_upper_right_top"/>
+      <origin xyz="${width} ${length} ${height}" rpy="0 0 0"/>
+    </joint>
+
+    <link name="${name}_center_top"/>
+    <joint name="${name}_center_top_joint" type="fixed">
+      <parent link="${name}"/>
+      <child  link="${name}_center_top"/>
+      <origin xyz="${width/2} ${length/2} ${height + 0.03}" rpy="0 0 0"/>
+    </joint>
+
+  </xacro:macro>
+</robot>

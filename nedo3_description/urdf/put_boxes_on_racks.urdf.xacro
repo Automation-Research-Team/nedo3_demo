@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro"
+       name="put_boxes_on_racks">
+
+  <xacro:macro name="put_boxes_on_rack"
+	       params="rack_name rack_prop part_props box_props">
+    <xacro:include filename="$(find nedo3_description
+			     )/urdf/parts_box.urdf.xacro"/>
+
+    <xacro:property name="box_separation"
+		    value="${rack_prop['box_separation']}"/>
+
+    <xacro:macro name="put_boxes_on_shelf"
+		 params="shelf_name part_ids offset">
+      <xacro:if value="${len(part_ids)}">
+	<xacro:property name="part_id"   value="${part_ids[0]}"/>
+	<xacro:property name="part_prop" value="${part_props[part_id]}"/>
+	<xacro:property name="box_prop"
+			value="${box_props[part_prop['box']]}"/>
+	<xacro:property name="box_id"
+			value="${part_id.replace('part', 'box')}"/>
+	<xacro:parts_box name="${box_id}"
+      			 width="${box_prop['width']}"
+      			 length="${box_prop['length']}"
+      			 height="${box_prop['height']}"
+      			 bottom_thickness="${box_prop['bottom_thickness']}"
+      			 side_thickness="${box_prop['side_thickness']}"
+      			 parent="${shelf_name}">
+      	  <origin xyz="${offset} 0 0" rpy="0 0 0"/>
+	</xacro:parts_box>
+
+	<xacro:put_boxes_on_shelf shelf_name="${shelf_name}"
+      				  part_ids="${part_ids[1:]}"
+      				  offset="${offset + box_prop['width']
+					  + box_separation}"/>
+      </xacro:if>
+    </xacro:macro>
+
+    <xacro:property name="upper_offset"
+    		    value="${(rack_prop['width'] -
+    			      python.sum([box_props[
+    			      part_props[part_id]['box']]['width']
+    			      for part_id in rack_prop['upper']]) -
+			      (len(rack_prop['upper']) - 1)*
+			      box_separation)/2}"/>
+    <xacro:put_boxes_on_shelf shelf_name="${rack_name}_upper"
+			      part_ids="${rack_prop['upper']}"
+			      offset="${upper_offset}"/>
+    <xacro:property name="lower_offset"
+    		    value="${(rack_prop['width'] -
+    			      python.sum([box_props[
+    			      part_props[part_id]['box']]['width']
+    			      for part_id in rack_prop['lower']]) -
+			      (len(rack_prop['lower']) - 1)*
+			      box_separation)/2}"/>
+    <xacro:put_boxes_on_shelf shelf_name="${rack_name}_lower"
+    			      part_ids="${rack_prop['lower']}"
+    			      offset="${lower_offset}"/>
+  </xacro:macro>
+
+  <xacro:macro name="put_boxes_on_racks"
+	       params="rack_props part_props box_props">
+    <xacro:if value="${len(rack_props)}">
+      <xacro:property name="rack_item" value="${rack_props.popitem()}"/>
+      <xacro:put_boxes_on_rack rack_name="${rack_item[0]}"
+			       rack_prop="${rack_item[1]}"
+			       part_props="${part_props}"
+			       box_props="${box_props}"/>
+
+      <xacro:put_boxes_on_racks rack_props="${rack_props}"
+				part_props="${part_props}"
+				box_props="${box_props}"/>
+    </xacro:if>
+  </xacro:macro>
+
+</robot>
