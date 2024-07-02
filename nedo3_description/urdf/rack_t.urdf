@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<robot name="aaa" xmlns:xacro="http://wiki.ros.org/xacro">
+  <xacro:include filename="$(find nedo3_description)/urdf/rack_t.urdf.xacro" />
+
+  <link name ="base_link"/>
+
+  <xacro:rack_t name="rack_t" parent="base_link">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </xacro:rack_t>
+</robot>

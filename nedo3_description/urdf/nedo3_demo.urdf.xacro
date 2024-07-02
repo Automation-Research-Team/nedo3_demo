@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="showcase">
+
+  <xacro:property name="lane_separation"	value="2.000"/>
+  <xacro:property name="lane_width"		value="0.87"/>
+  <xacro:property name="workspace_length"	value="${lane_separation
+						       + lane_width}"/>
+  <xacro:property name="rack_width"		value="0.85"/>
+  <xacro:property name="rack_separation"	value="0.04"/>
+  <xacro:property name="rack_t_elevation"	value="0.20"/>
+
+  <!-- Root frame -->
+  <link name="world"/>
+
+  <!-- Main workspace -->
+  <link name="ground"/>
+  <joint name="world_ground_joint" type="fixed">
+    <parent link="world"/>
+    <child  link="ground"/>
+    <origin xyz="-4 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Floor -->
+  <xacro:property name="floor_width"	value="12.000"/>
+  <xacro:property name="floor_length"	value="6.000"/>
+  <xacro:include filename="$(find nedo3_description
+			   )/urdf/floor.urdf.xacro"/>
+  <xacro:floor prefix="demo_" parent="world" width="${floor_width}"
+  	       length="${floor_length}" thickness="0">
+    <origin xyz="0 0 -0.001" rpy="0 0 0"/>
+  </xacro:floor>
+
+  <!-- rack_b0 -->
+  <xacro:include filename="$(find nedo3_description
+			   )/urdf/rack_b.urdf.xacro"/>
+  <xacro:rack_b name="rack_b0" parent="ground">
+    <origin xyz="1.5 ${workspace_length/2} 0" rpy="0 0 0"/>
+  </xacro:rack_b>
+
+  <!-- rack_t0 -->
+  <xacro:include filename="$(find nedo3_description
+			   )/urdf/rack_t.urdf.xacro"/>
+  <xacro:rack_t name="rack_t0" parent="rack_b0">
+    <origin xyz="0 0 ${rack_t_elevation}" rpy="0 0 0"/>
+  </xacro:rack_t>
+
+  <!-- rack_b1 -->
+  <xacro:rack_b name="rack_b1" parent="rack_b0">
+    <origin xyz="${rack_width + rack_separation} 0 0" rpy="0 0 0"/>
+  </xacro:rack_b>
+  <xacro:rack_t name="rack_t1" parent="rack_b1">
+    <origin xyz="0 0 ${rack_t_elevation}" rpy="0 0 0"/>
+  </xacro:rack_t>
+
+  <!-- rack_b2 -->
+  <xacro:rack_b name="rack_b2" parent="rack_b1">
+    <origin xyz="${rack_width + rack_separation} 0 0" rpy="0 0 0"/>
+  </xacro:rack_b>
+  <xacro:rack_t name="rack_t2" parent="rack_b2">
+    <origin xyz="0 0 ${rack_t_elevation}" rpy="0 0 0"/>
+  </xacro:rack_t>
+
+  <!-- rack_b3 -->
+  <xacro:rack_b name="rack_b3" parent="rack_b2">
+    <origin xyz="${rack_width + rack_separation} 0 0" rpy="0 0 0"/>
+  </xacro:rack_b>
+  <xacro:rack_t name="rack_t3" parent="rack_b3">
+    <origin xyz="0 0 ${rack_t_elevation}" rpy="0 0 0"/>
+  </xacro:rack_t>
+
+  <!-- rack_b4 -->
+  <xacro:rack_b name="rack_b4" parent="ground">
+    <origin xyz="${1.5 + rack_width} ${-workspace_length/2} 0"
+	    rpy="0 0 ${pi}"/>
+  </xacro:rack_b>
+  <xacro:rack_t name="rack_t4" parent="rack_b4">
+    <origin xyz="0 0 ${rack_t_elevation}" rpy="0 0 0"/>
+  </xacro:rack_t>
+
+  <!-- <!-\- Put boxes on shooters -\-> -->
+  <!-- <xacro:include filename="$(find nedo3_description)/scenes/urdf/put_boxes_on_shooters.urdf.xacro"/> -->
+
+  <!-- <xacro:property name="rack_b_props" -->
+  <!-- 		  value="${xacro.load_yaml('$(find nedo3_description -->
+  <!-- 			 )/config/showcase_rack_b_props.yaml')}"/> -->
+  <!-- <xacro:property name="showcase_params" -->
+  <!-- 		  value="${xacro.load_yaml('$(find nedo3_routines -->
+  <!-- 			 )/config/showcase.yaml')}"/> -->
+  <!-- <xacro:property name="boxes" -->
+  <!-- 		  value="${showcase_params['boxes']}"/> -->
+  <!-- <xacro:property name="part_props" -->
+  <!-- 		  value="${showcase_params['motion_parameters']}"/> -->
+  <!-- <xacro:property name="box_props" -->
+  <!-- 		  value="${xacro.load_yaml('$(find nedo3_description -->
+  <!-- 			 )/config/box_props.yaml')}"/> -->
+
+  <!-- Spawning boxes for all shooters is computationally very intensive
+       because of its high recursive nature. -->
+  <!-- <xacro:put_boxes_on_shooters rack_b_props="${rack_b_props}" -->
+  <!-- 			       part_props="${part_props}" -->
+  <!-- 			       box_props="${box_props}"/> -->
+
+  <!-- Spawn boxes for each shooter one by one, -->
+  <!-- <xacro:put_boxes_on_shooter rack_b_name="rack_b_A" -->
+  <!-- 			      rack_b_prop="${rack_b_props['rack_b_A']}" -->
+  <!-- 			      boxes="${boxes}" -->
+  <!-- 			      part_props="${part_props}" -->
+  <!-- 			      box_props="${box_props}"/> -->
+  <!-- <xacro:put_boxes_on_shooter rack_b_name="rack_b_B" -->
+  <!-- 			      rack_b_prop="${rack_b_props['rack_b_B']}" -->
+  <!-- 			      boxes="${boxes}" -->
+  <!-- 			      part_props="${part_props}" -->
+  <!-- 			      box_props="${box_props}"/> -->
+  <!-- <xacro:put_boxes_on_shooter rack_b_name="rack_b_C" -->
+  <!-- 			      rack_b_prop="${rack_b_props['rack_b_C']}" -->
+  <!-- 			      boxes="${boxes}" -->
+  <!-- 			      part_props="${part_props}" -->
+  <!-- 			      box_props="${box_props}"/> -->
+  <!-- <xacro:put_boxes_on_shooter rack_b_name="rack_b_D" -->
+  <!-- 			      rack_b_prop="${rack_b_props['rack_b_D']}" -->
+  <!-- 			      boxes="${boxes}" -->
+  <!-- 			      part_props="${part_props}" -->
+  <!-- 			      box_props="${box_props}"/> -->
+  <!-- <xacro:put_boxes_on_shooter rack_b_name="rack_b_E" -->
+  <!-- 			      rack_b_prop="${rack_b_props['rack_b_E']}" -->
+  <!-- 			      boxes="${boxes}" -->
+  <!-- 			      part_props="${part_props}" -->
+  <!-- 			      box_props="${box_props}"/> -->
+  <!-- <xacro:put_boxes_on_shooter rack_b_name="rack_b_F" -->
+  <!-- 			      rack_b_prop="${rack_b_props['rack_b_F']}" -->
+  <!-- 			      boxes="${boxes}" -->
+  <!-- 			      part_props="${part_props}" -->
+  <!-- 			      box_props="${box_props}"/> -->
+  <!-- <xacro:put_boxes_on_shooter rack_b_name="rack_b_G" -->
+  <!-- 			      rack_b_prop="${rack_b_props['rack_b_G']}" -->
+  <!-- 			      boxes="${boxes}" -->
+  <!-- 			      part_props="${part_props}" -->
+  <!-- 			      box_props="${box_props}"/> -->
+  <!-- <xacro:put_boxes_on_shooter rack_b_name="rack_b_H" -->
+  <!-- 			      rack_b_prop="${rack_b_props['rack_b_H']}" -->
+  <!-- 			      boxes="${boxes}" -->
+  <!-- 			      part_props="${part_props}" -->
+  <!-- 			      box_props="${box_props}"/> -->
+  <!-- <xacro:put_boxes_on_shooter rack_b_name="rack_b_I" -->
+  <!-- 			      rack_b_prop="${rack_b_props['rack_b_I']}" -->
+  <!-- 			      boxes="${boxes}" -->
+  <!-- 			      part_props="${part_props}" -->
+  <!-- 			      box_props="${box_props}"/> -->
+  <!-- <xacro:put_boxes_on_shooter rack_b_name="rack_b_J" -->
+  <!-- 			      rack_b_prop="${rack_b_props['rack_b_J']}" -->
+  <!-- 			      boxes="${boxes}" -->
+  <!-- 			      part_props="${part_props}" -->
+  <!-- 			      box_props="${box_props}"/> -->
+
+  <!-- <!-\- Set staypoints for shooters -\-> -->
+  <!-- <xacro:include filename="$(find nedo3_description -->
+  <!-- 			   )/scenes/urdf/set_rack_b_staypoint.urdf.xacro"/> -->
+  <!-- <xacro:set_rack_b_staypoint rack_b_name="rack_b_A" -->
+  <!-- 			       rack_b_prop="${rack_b_props['rack_b_A']}" -->
+  <!-- 			       lane_width="${lane_width}"/> -->
+  <!-- <xacro:set_rack_b_staypoint rack_b_name="rack_b_B" -->
+  <!-- 			       rack_b_prop="${rack_b_props['rack_b_B']}" -->
+  <!-- 			       lane_width="${lane_width}"/> -->
+  <!-- <xacro:set_rack_b_staypoint rack_b_name="rack_b_C" -->
+  <!-- 			       rack_b_prop="${rack_b_props['rack_b_C']}" -->
+  <!-- 			       lane_width="${lane_width}"/> -->
+  <!-- <xacro:set_rack_b_staypoint rack_b_name="rack_b_F" -->
+  <!-- 			       rack_b_prop="${rack_b_props['rack_b_F']}" -->
+  <!-- 			       lane_width="${lane_width}"/> -->
+  <!-- <xacro:set_rack_b_staypoint rack_b_name="rack_b_H" -->
+  <!-- 			       rack_b_prop="${rack_b_props['rack_b_H']}" -->
+  <!-- 			       lane_width="${lane_width}"/> -->
+  <!-- <xacro:set_rack_b_staypoint rack_b_name="rack_b_J" -->
+  <!-- 			       rack_b_prop="${rack_b_props['rack_b_J']}" -->
+  <!-- 			       lane_width="${lane_width}"/> -->
+
+  <!-- <!-\- Set staypoints for boxes -\-> -->
+  <!-- <xacro:include filename="$(find nedo3_description -->
+  <!-- 			   )/scenes/urdf/set_box_staypoints.urdf.xacro"/> -->
+  <!-- <xacro:set_box_staypoints rack_b_name="rack_b_D" -->
+  <!-- 			    rack_b_prop="${rack_b_props['rack_b_D']}" -->
+  <!-- 			    part_props="${part_props}" -->
+  <!-- 			    box_props="${box_props}" -->
+  <!-- 			    lane_width="${lane_width}"/> -->
+  <!-- <xacro:set_box_staypoints rack_b_name="rack_b_E" -->
+  <!-- 			    rack_b_prop="${rack_b_props['rack_b_E']}" -->
+  <!-- 			    part_props="${part_props}" -->
+  <!-- 			    box_props="${box_props}" -->
+  <!-- 			    lane_width="${lane_width}"/> -->
+  <!-- <xacro:set_box_staypoints rack_b_name="rack_b_G" -->
+  <!-- 			    rack_b_prop="${rack_b_props['rack_b_G']}" -->
+  <!-- 			    part_props="${part_props}" -->
+  <!-- 			    box_props="${box_props}" -->
+  <!-- 			    lane_width="${lane_width}"/> -->
+  <!-- <xacro:set_box_staypoints rack_b_name="rack_b_I" -->
+  <!-- 			    rack_b_prop="${rack_b_props['rack_b_I']}" -->
+  <!-- 			    part_props="${part_props}" -->
+  <!-- 			    box_props="${box_props}" -->
+  <!-- 			    lane_width="${lane_width}"/> -->
+
+  <!-- <!-\- Set staypoints for home and charger -\-> -->
+  <!-- <xacro:include filename="$(find nedo3_description -->
+  <!-- 			   )/scenes/urdf/set_staypoint.urdf.xacro"/> -->
+  <!-- <xacro:set_staypoint suffix="_charger" parent="ground" -->
+  <!-- 		       x="7.250" y="${lane_separation/2}"/> -->
+  <!-- <xacro:set_staypoint suffix="_home" parent="ground" -->
+  <!-- 		       x="0.300" y="${-lane_separation/2}" theta="${pi}"/> -->
+
+  <!-- <!-\- Set staypoints for north-west and south-east -\-> -->
+  <!-- <xacro:set_staypoint suffix="_NW" parent="ground" -->
+  <!-- 		       x="${0.650 - 0.495 - 0.225}" y="${lane_separation/2}"/> -->
+  <!-- <xacro:set_staypoint suffix="_SE" parent="ground" -->
+  <!-- 		       x="${7.350 + 0.495 - 0.225}" y="${-lane_separation/2}" -->
+  <!-- 		       theta="${pi}"/> -->
+
+</robot>

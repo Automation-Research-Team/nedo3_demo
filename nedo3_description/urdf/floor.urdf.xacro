@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<robot name="floor" xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <xacro:macro name="floor"
+	       params="prefix parent width length thickness *origin">
+    <joint name="${prefix}floor_joint" type="fixed">
+      <parent link="${parent}" />
+      <child  link="${prefix}floor_link" />
+      <xacro:insert_block name="origin" />
+    </joint>
+
+    <link name="${prefix}floor_link">
+      <visual>
+	<origin xyz="0 0 ${-thickness/2}" rpy="0 0 0"/>
+        <geometry>
+          <box size="${width} ${length} ${thickness}" />
+        </geometry>
+	<material name="${prefix}floor">
+	  <texture filename="package://nedo3_description/media/materials/textures/${prefix}floor.png"/>
+	</material>
+      </visual>
+      <collision>
+	<origin xyz="0 0 ${-thickness/2}" rpy="0 0 0"/>
+        <geometry>
+          <box size="${width} ${length} ${thickness}" />
+        </geometry>
+      </collision>
+      <!-- <inertial> -->
+      <!-- 	<mass value="1.0"/> -->
+      <!-- 	<inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/> -->
+      <!-- </inertial> -->
+    </link>
+
+    <!-- For Gazebo, material of AR marker is defined in -->
+    <!--      aist_gazebo/media/material. You also need to export -->
+    <!--      gazebo_media_path in package.xml. -->
+    <!-- <gazebo reference="floor_link"> -->
+    <!--   <material>Showcase/floor</material> -->
+    <!-- </gazebo> -->
+  </xacro:macro>
+
+</robot>

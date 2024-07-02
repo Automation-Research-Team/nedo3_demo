@@ -1,0 +1,14 @@
+material demo_floor
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+	texture demo_floor.png
+	scale 1 1
+      }
+    }
+  }
+}

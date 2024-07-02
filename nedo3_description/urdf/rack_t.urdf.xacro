@@ -1,0 +1,52 @@
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rack_t">
+  <xacro:macro name="rack_t" params="name parent *origin">
+    <link name="${name}">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://nedo3_description/meshes/rack_t.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="white">
+          <color rgba="1 1 1 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="package://nedo3_description/meshes/collision/rack_t.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+      </collision>
+
+      <!-- Required for Gazebo -->
+      <inertial>
+	<mass value="20.0"/>
+	<inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
+      </inertial>
+    </link>
+
+    <joint name="${name}_joint" type="fixed">
+      <parent link="${parent}"/>
+      <child link="${name}"/>
+      <xacro:insert_block name="origin"/>
+    </joint>
+
+    <link name="${name}_lower"/>
+    <joint name="${name}_lower_joint" type="fixed">
+      <parent link="${name}"/>
+      <child  link="${name}_lower"/>
+      <origin xyz="0.020 0.020 0.150" rpy="${20*pi/180} 0 0"/>
+    </joint>
+
+    <link name="${name}_upper"/>
+    <joint name="${name}_upper_joint" type="fixed">
+      <parent link="${name}"/>
+      <child  link="${name}_upper"/>
+      <origin xyz="0.020 0.300 0.700" rpy="${20*pi/180} 0 0"/>
+    </joint>
+
+    <gazebo reference="${name}">
+      <material>Gazebo/White</material>
+      <selfCollide>True</selfCollide>
+    </gazebo>
+  </xacro:macro>
+</robot>

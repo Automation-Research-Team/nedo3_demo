@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="floor" >
+
+  <xacro:include filename="$(find nedo3_description)/urdf/floor.urdf.xacro"/>
+
+  <link name="base_link"/>
+  <xacro:floor prefix="demo_" parent="base_link"
+	       width="10.0" length="6.0" thickness="0.001">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:floor>
+
+</robot>
