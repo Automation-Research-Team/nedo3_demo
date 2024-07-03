@@ -258,6 +258,7 @@
     <disable_collisions link1="arm_forearm_link" link2="box_9_frontside" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_9_leftside" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_9_rightside" reason="Never"/>
+    <disable_collisions link1="arm_forearm_link" link2="demo_floor_link" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="rack_b0" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="rack_b1" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="rack_b2" reason="Never"/>

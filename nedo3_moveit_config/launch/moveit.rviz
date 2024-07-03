@@ -5,12 +5,12 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /MotionPlanning1
         - /MotionPlanning1/Scene Geometry1
         - /MotionPlanning1/Scene Robot1
         - /MotionPlanning1/Planning Request1
         - /MotionPlanning1/Planning Metrics1
         - /MotionPlanning1/Planned Path1
+        - /TF1
       Splitter Ratio: 0.5
     Tree Height: 313
   - Class: rviz/Help
@@ -2655,22 +2655,1086 @@ Visualization Manager:
       Value: false
       Visual Enabled: false
     - Class: rviz/TF
-      Enabled: false
+      Enabled: true
       Filter (blacklist): ""
       Filter (whitelist): ""
       Frame Timeout: 15
       Frames:
         All Enabled: true
+        arm_base:
+          Value: true
+        arm_base_link:
+          Value: true
+        arm_base_link_inertia:
+          Value: true
+        arm_flange:
+          Value: true
+        arm_forearm_link:
+          Value: true
+        arm_shoulder_link:
+          Value: true
+        arm_table_leg0:
+          Value: true
+        arm_table_leg1:
+          Value: true
+        arm_table_leg2:
+          Value: true
+        arm_table_leg3:
+          Value: true
+        arm_table_top:
+          Value: true
+        arm_table_top_origin:
+          Value: true
+        arm_table_top_origin_center:
+          Value: true
+        arm_tool0:
+          Value: true
+        arm_upper_arm_link:
+          Value: true
+        arm_wrist_1_link:
+          Value: true
+        arm_wrist_2_link:
+          Value: true
+        arm_wrist_3_link:
+          Value: true
+        box_1:
+          Value: true
+        box_18:
+          Value: true
+        box_18_backside:
+          Value: true
+        box_18_bottom:
+          Value: true
+        box_18_center_bottom:
+          Value: true
+        box_18_center_top:
+          Value: true
+        box_18_frontside:
+          Value: true
+        box_18_leftside:
+          Value: true
+        box_18_lower_left_top:
+          Value: true
+        box_18_lower_right_top:
+          Value: true
+        box_18_rightside:
+          Value: true
+        box_18_upper_left_top:
+          Value: true
+        box_18_upper_right_top:
+          Value: true
+        box_19:
+          Value: true
+        box_19_backside:
+          Value: true
+        box_19_bottom:
+          Value: true
+        box_19_center_bottom:
+          Value: true
+        box_19_center_top:
+          Value: true
+        box_19_frontside:
+          Value: true
+        box_19_leftside:
+          Value: true
+        box_19_lower_left_top:
+          Value: true
+        box_19_lower_right_top:
+          Value: true
+        box_19_rightside:
+          Value: true
+        box_19_upper_left_top:
+          Value: true
+        box_19_upper_right_top:
+          Value: true
+        box_1_backside:
+          Value: true
+        box_1_bottom:
+          Value: true
+        box_1_center_bottom:
+          Value: true
+        box_1_center_top:
+          Value: true
+        box_1_frontside:
+          Value: true
+        box_1_leftside:
+          Value: true
+        box_1_lower_left_top:
+          Value: true
+        box_1_lower_right_top:
+          Value: true
+        box_1_rightside:
+          Value: true
+        box_1_upper_left_top:
+          Value: true
+        box_1_upper_right_top:
+          Value: true
+        box_2:
+          Value: true
+        box_20:
+          Value: true
+        box_20_backside:
+          Value: true
+        box_20_bottom:
+          Value: true
+        box_20_center_bottom:
+          Value: true
+        box_20_center_top:
+          Value: true
+        box_20_frontside:
+          Value: true
+        box_20_leftside:
+          Value: true
+        box_20_lower_left_top:
+          Value: true
+        box_20_lower_right_top:
+          Value: true
+        box_20_rightside:
+          Value: true
+        box_20_upper_left_top:
+          Value: true
+        box_20_upper_right_top:
+          Value: true
+        box_21:
+          Value: true
+        box_21_backside:
+          Value: true
+        box_21_bottom:
+          Value: true
+        box_21_center_bottom:
+          Value: true
+        box_21_center_top:
+          Value: true
+        box_21_frontside:
+          Value: true
+        box_21_leftside:
+          Value: true
+        box_21_lower_left_top:
+          Value: true
+        box_21_lower_right_top:
+          Value: true
+        box_21_rightside:
+          Value: true
+        box_21_upper_left_top:
+          Value: true
+        box_21_upper_right_top:
+          Value: true
+        box_22:
+          Value: true
+        box_22_backside:
+          Value: true
+        box_22_bottom:
+          Value: true
+        box_22_center_bottom:
+          Value: true
+        box_22_center_top:
+          Value: true
+        box_22_frontside:
+          Value: true
+        box_22_leftside:
+          Value: true
+        box_22_lower_left_top:
+          Value: true
+        box_22_lower_right_top:
+          Value: true
+        box_22_rightside:
+          Value: true
+        box_22_upper_left_top:
+          Value: true
+        box_22_upper_right_top:
+          Value: true
+        box_23:
+          Value: true
+        box_23_backside:
+          Value: true
+        box_23_bottom:
+          Value: true
+        box_23_center_bottom:
+          Value: true
+        box_23_center_top:
+          Value: true
+        box_23_frontside:
+          Value: true
+        box_23_leftside:
+          Value: true
+        box_23_lower_left_top:
+          Value: true
+        box_23_lower_right_top:
+          Value: true
+        box_23_rightside:
+          Value: true
+        box_23_upper_left_top:
+          Value: true
+        box_23_upper_right_top:
+          Value: true
+        box_26:
+          Value: true
+        box_26_backside:
+          Value: true
+        box_26_bottom:
+          Value: true
+        box_26_center_bottom:
+          Value: true
+        box_26_center_top:
+          Value: true
+        box_26_frontside:
+          Value: true
+        box_26_leftside:
+          Value: true
+        box_26_lower_left_top:
+          Value: true
+        box_26_lower_right_top:
+          Value: true
+        box_26_rightside:
+          Value: true
+        box_26_upper_left_top:
+          Value: true
+        box_26_upper_right_top:
+          Value: true
+        box_2_backside:
+          Value: true
+        box_2_bottom:
+          Value: true
+        box_2_center_bottom:
+          Value: true
+        box_2_center_top:
+          Value: true
+        box_2_frontside:
+          Value: true
+        box_2_leftside:
+          Value: true
+        box_2_lower_left_top:
+          Value: true
+        box_2_lower_right_top:
+          Value: true
+        box_2_rightside:
+          Value: true
+        box_2_upper_left_top:
+          Value: true
+        box_2_upper_right_top:
+          Value: true
+        box_3:
+          Value: true
+        box_3_backside:
+          Value: true
+        box_3_bottom:
+          Value: true
+        box_3_center_bottom:
+          Value: true
+        box_3_center_top:
+          Value: true
+        box_3_frontside:
+          Value: true
+        box_3_leftside:
+          Value: true
+        box_3_lower_left_top:
+          Value: true
+        box_3_lower_right_top:
+          Value: true
+        box_3_rightside:
+          Value: true
+        box_3_upper_left_top:
+          Value: true
+        box_3_upper_right_top:
+          Value: true
+        box_4:
+          Value: true
+        box_41:
+          Value: true
+        box_41_backside:
+          Value: true
+        box_41_bottom:
+          Value: true
+        box_41_center_bottom:
+          Value: true
+        box_41_center_top:
+          Value: true
+        box_41_frontside:
+          Value: true
+        box_41_leftside:
+          Value: true
+        box_41_lower_left_top:
+          Value: true
+        box_41_lower_right_top:
+          Value: true
+        box_41_rightside:
+          Value: true
+        box_41_upper_left_top:
+          Value: true
+        box_41_upper_right_top:
+          Value: true
+        box_42:
+          Value: true
+        box_42_backside:
+          Value: true
+        box_42_bottom:
+          Value: true
+        box_42_center_bottom:
+          Value: true
+        box_42_center_top:
+          Value: true
+        box_42_frontside:
+          Value: true
+        box_42_leftside:
+          Value: true
+        box_42_lower_left_top:
+          Value: true
+        box_42_lower_right_top:
+          Value: true
+        box_42_rightside:
+          Value: true
+        box_42_upper_left_top:
+          Value: true
+        box_42_upper_right_top:
+          Value: true
+        box_43:
+          Value: true
+        box_43_backside:
+          Value: true
+        box_43_bottom:
+          Value: true
+        box_43_center_bottom:
+          Value: true
+        box_43_center_top:
+          Value: true
+        box_43_frontside:
+          Value: true
+        box_43_leftside:
+          Value: true
+        box_43_lower_left_top:
+          Value: true
+        box_43_lower_right_top:
+          Value: true
+        box_43_rightside:
+          Value: true
+        box_43_upper_left_top:
+          Value: true
+        box_43_upper_right_top:
+          Value: true
+        box_44:
+          Value: true
+        box_44_backside:
+          Value: true
+        box_44_bottom:
+          Value: true
+        box_44_center_bottom:
+          Value: true
+        box_44_center_top:
+          Value: true
+        box_44_frontside:
+          Value: true
+        box_44_leftside:
+          Value: true
+        box_44_lower_left_top:
+          Value: true
+        box_44_lower_right_top:
+          Value: true
+        box_44_rightside:
+          Value: true
+        box_44_upper_left_top:
+          Value: true
+        box_44_upper_right_top:
+          Value: true
+        box_4_backside:
+          Value: true
+        box_4_bottom:
+          Value: true
+        box_4_center_bottom:
+          Value: true
+        box_4_center_top:
+          Value: true
+        box_4_frontside:
+          Value: true
+        box_4_leftside:
+          Value: true
+        box_4_lower_left_top:
+          Value: true
+        box_4_lower_right_top:
+          Value: true
+        box_4_rightside:
+          Value: true
+        box_4_upper_left_top:
+          Value: true
+        box_4_upper_right_top:
+          Value: true
+        box_5:
+          Value: true
+        box_5_backside:
+          Value: true
+        box_5_bottom:
+          Value: true
+        box_5_center_bottom:
+          Value: true
+        box_5_center_top:
+          Value: true
+        box_5_frontside:
+          Value: true
+        box_5_leftside:
+          Value: true
+        box_5_lower_left_top:
+          Value: true
+        box_5_lower_right_top:
+          Value: true
+        box_5_rightside:
+          Value: true
+        box_5_upper_left_top:
+          Value: true
+        box_5_upper_right_top:
+          Value: true
+        box_8:
+          Value: true
+        box_8_backside:
+          Value: true
+        box_8_bottom:
+          Value: true
+        box_8_center_bottom:
+          Value: true
+        box_8_center_top:
+          Value: true
+        box_8_frontside:
+          Value: true
+        box_8_leftside:
+          Value: true
+        box_8_lower_left_top:
+          Value: true
+        box_8_lower_right_top:
+          Value: true
+        box_8_rightside:
+          Value: true
+        box_8_upper_left_top:
+          Value: true
+        box_8_upper_right_top:
+          Value: true
+        box_9:
+          Value: true
+        box_9_backside:
+          Value: true
+        box_9_bottom:
+          Value: true
+        box_9_center_bottom:
+          Value: true
+        box_9_center_top:
+          Value: true
+        box_9_frontside:
+          Value: true
+        box_9_leftside:
+          Value: true
+        box_9_lower_left_top:
+          Value: true
+        box_9_lower_right_top:
+          Value: true
+        box_9_rightside:
+          Value: true
+        box_9_upper_left_top:
+          Value: true
+        box_9_upper_right_top:
+          Value: true
+        demo_floor_link:
+          Value: true
+        gripper_base_link:
+          Value: true
+        gripper_coupling_base_link:
+          Value: true
+        gripper_coupling_flange_link:
+          Value: true
+        gripper_left_inner_finger:
+          Value: true
+        gripper_left_inner_finger_pad:
+          Value: true
+        gripper_left_inner_knuckle:
+          Value: true
+        gripper_left_outer_finger:
+          Value: true
+        gripper_left_outer_knuckle:
+          Value: true
+        gripper_right_inner_finger:
+          Value: true
+        gripper_right_inner_finger_pad:
+          Value: true
+        gripper_right_inner_knuckle:
+          Value: true
+        gripper_right_outer_finger:
+          Value: true
+        gripper_right_outer_knuckle:
+          Value: true
+        gripper_robotiq_arg2f_base_link:
+          Value: true
+        gripper_tip_link:
+          Value: true
+        ground:
+          Value: true
+        rack_b0:
+          Value: true
+        rack_b0_lower:
+          Value: true
+        rack_b1:
+          Value: true
+        rack_b1_lower:
+          Value: true
+        rack_b2:
+          Value: true
+        rack_b2_lower:
+          Value: true
+        rack_b3:
+          Value: true
+        rack_b3_lower:
+          Value: true
+        rack_b4:
+          Value: true
+        rack_b4_lower:
+          Value: true
+        rack_b5:
+          Value: true
+        rack_b5_lower:
+          Value: true
+        rack_t0:
+          Value: true
+        rack_t0_lower:
+          Value: true
+        rack_t0_upper:
+          Value: true
+        rack_t1:
+          Value: true
+        rack_t1_lower:
+          Value: true
+        rack_t1_upper:
+          Value: true
+        rack_t2:
+          Value: true
+        rack_t2_lower:
+          Value: true
+        rack_t2_upper:
+          Value: true
+        rack_t3:
+          Value: true
+        rack_t3_lower:
+          Value: true
+        rack_t3_upper:
+          Value: true
+        rack_t4:
+          Value: true
+        rack_t4_lower:
+          Value: true
+        rack_t4_upper:
+          Value: true
+        rack_t5:
+          Value: true
+        rack_t5_lower:
+          Value: true
+        rack_t5_upper:
+          Value: true
+        world:
+          Value: true
       Marker Alpha: 1
-      Marker Scale: 1
+      Marker Scale: 0.20000000298023224
       Name: TF
-      Show Arrows: true
+      Show Arrows: false
       Show Axes: true
       Show Names: true
       Tree:
-        {}
+        world:
+          demo_floor_link:
+            {}
+          ground:
+            arm_table_leg0:
+              arm_table_leg1:
+                {}
+              arm_table_leg2:
+                {}
+              arm_table_leg3:
+                {}
+              arm_table_top:
+                arm_base_link:
+                  arm_base:
+                    {}
+                  arm_base_link_inertia:
+                    arm_shoulder_link:
+                      arm_upper_arm_link:
+                        arm_forearm_link:
+                          arm_wrist_1_link:
+                            arm_wrist_2_link:
+                              arm_wrist_3_link:
+                                arm_flange:
+                                  arm_tool0:
+                                    {}
+                                  gripper_coupling_base_link:
+                                    gripper_coupling_flange_link:
+                                      gripper_base_link:
+                                        gripper_robotiq_arg2f_base_link:
+                                          gripper_left_inner_knuckle:
+                                            {}
+                                          gripper_left_outer_knuckle:
+                                            gripper_left_outer_finger:
+                                              gripper_left_inner_finger:
+                                                gripper_left_inner_finger_pad:
+                                                  {}
+                                          gripper_right_inner_knuckle:
+                                            {}
+                                          gripper_right_outer_knuckle:
+                                            gripper_right_outer_finger:
+                                              gripper_right_inner_finger:
+                                                gripper_right_inner_finger_pad:
+                                                  {}
+                                        gripper_tip_link:
+                                          {}
+                arm_table_top_origin:
+                  arm_table_top_origin_center:
+                    {}
+            rack_b0:
+              rack_b0_lower:
+                {}
+              rack_b1:
+                rack_b1_lower:
+                  {}
+                rack_b2:
+                  rack_b2_lower:
+                    {}
+                  rack_b3:
+                    rack_b3_lower:
+                      {}
+                    rack_b4:
+                      rack_b4_lower:
+                        {}
+                      rack_t4:
+                        rack_t4_lower:
+                          {}
+                        rack_t4_upper:
+                          box_20:
+                            box_20_backside:
+                              {}
+                            box_20_bottom:
+                              {}
+                            box_20_center_bottom:
+                              {}
+                            box_20_center_top:
+                              {}
+                            box_20_frontside:
+                              {}
+                            box_20_leftside:
+                              {}
+                            box_20_lower_left_top:
+                              {}
+                            box_20_lower_right_top:
+                              {}
+                            box_20_rightside:
+                              {}
+                            box_20_upper_left_top:
+                              {}
+                            box_20_upper_right_top:
+                              {}
+                          box_21:
+                            box_21_backside:
+                              {}
+                            box_21_bottom:
+                              {}
+                            box_21_center_bottom:
+                              {}
+                            box_21_center_top:
+                              {}
+                            box_21_frontside:
+                              {}
+                            box_21_leftside:
+                              {}
+                            box_21_lower_left_top:
+                              {}
+                            box_21_lower_right_top:
+                              {}
+                            box_21_rightside:
+                              {}
+                            box_21_upper_left_top:
+                              {}
+                            box_21_upper_right_top:
+                              {}
+                    rack_t3:
+                      rack_t3_lower:
+                        box_23:
+                          box_23_backside:
+                            {}
+                          box_23_bottom:
+                            {}
+                          box_23_center_bottom:
+                            {}
+                          box_23_center_top:
+                            {}
+                          box_23_frontside:
+                            {}
+                          box_23_leftside:
+                            {}
+                          box_23_lower_left_top:
+                            {}
+                          box_23_lower_right_top:
+                            {}
+                          box_23_rightside:
+                            {}
+                          box_23_upper_left_top:
+                            {}
+                          box_23_upper_right_top:
+                            {}
+                        box_26:
+                          box_26_backside:
+                            {}
+                          box_26_bottom:
+                            {}
+                          box_26_center_bottom:
+                            {}
+                          box_26_center_top:
+                            {}
+                          box_26_frontside:
+                            {}
+                          box_26_leftside:
+                            {}
+                          box_26_lower_left_top:
+                            {}
+                          box_26_lower_right_top:
+                            {}
+                          box_26_rightside:
+                            {}
+                          box_26_upper_left_top:
+                            {}
+                          box_26_upper_right_top:
+                            {}
+                      rack_t3_upper:
+                        box_18:
+                          box_18_backside:
+                            {}
+                          box_18_bottom:
+                            {}
+                          box_18_center_bottom:
+                            {}
+                          box_18_center_top:
+                            {}
+                          box_18_frontside:
+                            {}
+                          box_18_leftside:
+                            {}
+                          box_18_lower_left_top:
+                            {}
+                          box_18_lower_right_top:
+                            {}
+                          box_18_rightside:
+                            {}
+                          box_18_upper_left_top:
+                            {}
+                          box_18_upper_right_top:
+                            {}
+                        box_19:
+                          box_19_backside:
+                            {}
+                          box_19_bottom:
+                            {}
+                          box_19_center_bottom:
+                            {}
+                          box_19_center_top:
+                            {}
+                          box_19_frontside:
+                            {}
+                          box_19_leftside:
+                            {}
+                          box_19_lower_left_top:
+                            {}
+                          box_19_lower_right_top:
+                            {}
+                          box_19_rightside:
+                            {}
+                          box_19_upper_left_top:
+                            {}
+                          box_19_upper_right_top:
+                            {}
+                  rack_t2:
+                    rack_t2_lower:
+                      box_5:
+                        box_5_backside:
+                          {}
+                        box_5_bottom:
+                          {}
+                        box_5_center_bottom:
+                          {}
+                        box_5_center_top:
+                          {}
+                        box_5_frontside:
+                          {}
+                        box_5_leftside:
+                          {}
+                        box_5_lower_left_top:
+                          {}
+                        box_5_lower_right_top:
+                          {}
+                        box_5_rightside:
+                          {}
+                        box_5_upper_left_top:
+                          {}
+                        box_5_upper_right_top:
+                          {}
+                      box_9:
+                        box_9_backside:
+                          {}
+                        box_9_bottom:
+                          {}
+                        box_9_center_bottom:
+                          {}
+                        box_9_center_top:
+                          {}
+                        box_9_frontside:
+                          {}
+                        box_9_leftside:
+                          {}
+                        box_9_lower_left_top:
+                          {}
+                        box_9_lower_right_top:
+                          {}
+                        box_9_rightside:
+                          {}
+                        box_9_upper_left_top:
+                          {}
+                        box_9_upper_right_top:
+                          {}
+                    rack_t2_upper:
+                      box_41:
+                        box_41_backside:
+                          {}
+                        box_41_bottom:
+                          {}
+                        box_41_center_bottom:
+                          {}
+                        box_41_center_top:
+                          {}
+                        box_41_frontside:
+                          {}
+                        box_41_leftside:
+                          {}
+                        box_41_lower_left_top:
+                          {}
+                        box_41_lower_right_top:
+                          {}
+                        box_41_rightside:
+                          {}
+                        box_41_upper_left_top:
+                          {}
+                        box_41_upper_right_top:
+                          {}
+                      box_42:
+                        box_42_backside:
+                          {}
+                        box_42_bottom:
+                          {}
+                        box_42_center_bottom:
+                          {}
+                        box_42_center_top:
+                          {}
+                        box_42_frontside:
+                          {}
+                        box_42_leftside:
+                          {}
+                        box_42_lower_left_top:
+                          {}
+                        box_42_lower_right_top:
+                          {}
+                        box_42_rightside:
+                          {}
+                        box_42_upper_left_top:
+                          {}
+                        box_42_upper_right_top:
+                          {}
+                rack_t1:
+                  rack_t1_lower:
+                    box_3:
+                      box_3_backside:
+                        {}
+                      box_3_bottom:
+                        {}
+                      box_3_center_bottom:
+                        {}
+                      box_3_center_top:
+                        {}
+                      box_3_frontside:
+                        {}
+                      box_3_leftside:
+                        {}
+                      box_3_lower_left_top:
+                        {}
+                      box_3_lower_right_top:
+                        {}
+                      box_3_rightside:
+                        {}
+                      box_3_upper_left_top:
+                        {}
+                      box_3_upper_right_top:
+                        {}
+                    box_4:
+                      box_4_backside:
+                        {}
+                      box_4_bottom:
+                        {}
+                      box_4_center_bottom:
+                        {}
+                      box_4_center_top:
+                        {}
+                      box_4_frontside:
+                        {}
+                      box_4_leftside:
+                        {}
+                      box_4_lower_left_top:
+                        {}
+                      box_4_lower_right_top:
+                        {}
+                      box_4_rightside:
+                        {}
+                      box_4_upper_left_top:
+                        {}
+                      box_4_upper_right_top:
+                        {}
+                  rack_t1_upper:
+                    box_43:
+                      box_43_backside:
+                        {}
+                      box_43_bottom:
+                        {}
+                      box_43_center_bottom:
+                        {}
+                      box_43_center_top:
+                        {}
+                      box_43_frontside:
+                        {}
+                      box_43_leftside:
+                        {}
+                      box_43_lower_left_top:
+                        {}
+                      box_43_lower_right_top:
+                        {}
+                      box_43_rightside:
+                        {}
+                      box_43_upper_left_top:
+                        {}
+                      box_43_upper_right_top:
+                        {}
+                    box_44:
+                      box_44_backside:
+                        {}
+                      box_44_bottom:
+                        {}
+                      box_44_center_bottom:
+                        {}
+                      box_44_center_top:
+                        {}
+                      box_44_frontside:
+                        {}
+                      box_44_leftside:
+                        {}
+                      box_44_lower_left_top:
+                        {}
+                      box_44_lower_right_top:
+                        {}
+                      box_44_rightside:
+                        {}
+                      box_44_upper_left_top:
+                        {}
+                      box_44_upper_right_top:
+                        {}
+              rack_t0:
+                rack_t0_lower:
+                  box_1:
+                    box_1_backside:
+                      {}
+                    box_1_bottom:
+                      {}
+                    box_1_center_bottom:
+                      {}
+                    box_1_center_top:
+                      {}
+                    box_1_frontside:
+                      {}
+                    box_1_leftside:
+                      {}
+                    box_1_lower_left_top:
+                      {}
+                    box_1_lower_right_top:
+                      {}
+                    box_1_rightside:
+                      {}
+                    box_1_upper_left_top:
+                      {}
+                    box_1_upper_right_top:
+                      {}
+                  box_2:
+                    box_2_backside:
+                      {}
+                    box_2_bottom:
+                      {}
+                    box_2_center_bottom:
+                      {}
+                    box_2_center_top:
+                      {}
+                    box_2_frontside:
+                      {}
+                    box_2_leftside:
+                      {}
+                    box_2_lower_left_top:
+                      {}
+                    box_2_lower_right_top:
+                      {}
+                    box_2_rightside:
+                      {}
+                    box_2_upper_left_top:
+                      {}
+                    box_2_upper_right_top:
+                      {}
+                rack_t0_upper:
+                  box_22:
+                    box_22_backside:
+                      {}
+                    box_22_bottom:
+                      {}
+                    box_22_center_bottom:
+                      {}
+                    box_22_center_top:
+                      {}
+                    box_22_frontside:
+                      {}
+                    box_22_leftside:
+                      {}
+                    box_22_lower_left_top:
+                      {}
+                    box_22_lower_right_top:
+                      {}
+                    box_22_rightside:
+                      {}
+                    box_22_upper_left_top:
+                      {}
+                    box_22_upper_right_top:
+                      {}
+                  box_8:
+                    box_8_backside:
+                      {}
+                    box_8_bottom:
+                      {}
+                    box_8_center_bottom:
+                      {}
+                    box_8_center_top:
+                      {}
+                    box_8_frontside:
+                      {}
+                    box_8_leftside:
+                      {}
+                    box_8_lower_left_top:
+                      {}
+                    box_8_lower_right_top:
+                      {}
+                    box_8_rightside:
+                      {}
+                    box_8_upper_left_top:
+                      {}
+                    box_8_upper_right_top:
+                      {}
+            rack_b5:
+              rack_b5_lower:
+                {}
+              rack_t5:
+                rack_t5_lower:
+                  {}
+                rack_t5_upper:
+                  {}
       Update Interval: 0
-      Value: false
+      Value: true
     - Class: rviz/Image
       Enabled: false
       Image Topic: ""
@@ -2695,11 +3759,12 @@ Visualization Manager:
       Hide Inactive Objects: true
     - Class: rviz/MoveCamera
     - Class: rviz/Select
+    - Class: rviz/FocusCamera
   Value: true
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 7.574294567108154
+      Distance: 0.8067291378974915
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -2707,17 +3772,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.75
       Focal Point:
-        X: -0.003898756578564644
-        Y: -0.13014237582683563
-        Z: 0.9833509922027588
+        X: -0.026252269744873047
+        Y: -1.6619820594787598
+        Z: 1.2381372451782227
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.19999942183494568
+      Pitch: 0.05116500332951546
       Target Frame: world
-      Yaw: 3.149953603744507
+      Yaw: 0.5970015525817871
     Saved: ~
 Window Geometry:
   Displays:
@@ -2738,4 +3803,4 @@ Window Geometry:
     collapsed: false
   Width: 1848
   X: 310
-  Y: 308
+  Y: 271

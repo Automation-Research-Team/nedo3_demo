@@ -4876,8 +4876,8 @@
         </plugin>
     </gazebo>
     <joint name="arm_base_joint" type="fixed">
-        <origin rpy="0 0 0" xyz="0.15 0.15 0" />
-        <parent link="arm_table_top" />
+        <origin rpy="0 0 0" xyz="0 0 0" />
+        <parent link="arm_table_top_origin_center" />
         <child link="arm_base_link" />
     </joint>
     <link name="gripper_coupling_base_link">
@@ -4908,7 +4908,7 @@
     <joint name="gripper_coupling_base_joint" type="fixed">
         <parent link="arm_flange" />
         <child link="gripper_coupling_base_link" />
-        <origin rpy="0 0 0" xyz="0 0 0" />
+        <origin rpy="3.141592653589793 0 0" xyz="0 0 0" />
     </joint>
     <link name="gripper_coupling_flange_link" />
     <joint name="gripper_coupling_flange_joint" type="fixed">

@@ -144,8 +144,8 @@
       kinematics_parameters_file="$(arg kinematics_parameters_file)"
       transmission_hw_interface="hardware_interface/PositionJointInterface"/>
   <joint name="arm_base_joint" type="fixed">
-    <origin xyz="${table_w/2} ${table_l/2} 0" rpy="0 0 0"/>
-    <parent link="arm_table_top" />
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="arm_table_top_origin_center" />
     <child link="arm_base_link"/>
   </joint>
 
@@ -153,7 +153,7 @@
   <xacro:include filename="$(find aist_robotiq
   			   )/urdf/robotiq_arg2f_coupling.urdf.xacro"/>
   <xacro:robotiq_arg2f_coupling prefix="gripper_coupling_" parent="arm_flange">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0" rpy="${pi} 0 0"/>
   </xacro:robotiq_arg2f_coupling>
 
   <!-- Spawn and attach gripper -->
