@@ -37,7 +37,7 @@ $ git checkout use_stl
 `github`から`aist_robotiq`を入手し，`develop`ブランチを取り出す．
 ```bash
 $ cd catkin_ws/src
-$ git clone git@github.com:Automation-Research-Team/aist_robotiqs.git
+$ git clone git@github.com:Automation-Research-Team/aist_robotiq.git
 $ cd aist_robotiq
 $ git checkout develop
 ```
