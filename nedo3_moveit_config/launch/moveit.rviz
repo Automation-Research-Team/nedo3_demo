@@ -6,9 +6,13 @@ Panels:
       Expanded:
         - /Global Options1
         - /MotionPlanning1
+        - /MotionPlanning1/Scene Geometry1
         - /MotionPlanning1/Scene Robot1
+        - /MotionPlanning1/Planning Request1
+        - /MotionPlanning1/Planning Metrics1
+        - /MotionPlanning1/Planned Path1
       Splitter Ratio: 0.5
-    Tree Height: 309
+    Tree Height: 313
   - Class: rviz/Help
     Name: Help
   - Class: rviz/Views
@@ -44,6 +48,7 @@ Visualization Manager:
     - Acceleration_Scaling_Factor: 0.1
       Class: moveit_rviz_plugin/MotionPlanning
       Enabled: true
+      JointsTab_Use_Radians: true
       Move Group Namespace: ""
       MoveIt_Allow_Approximate_IK: false
       MoveIt_Allow_External_Program: false
@@ -72,104 +77,1049 @@ Visualization Manager:
           Expand Link Details: false
           Expand Tree: false
           Link Tree Style: Links in Alphabetic Order
-          base:
+          arm_base:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          base_link:
+          arm_base_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          base_link_inertia:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottom_front__long_beam_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          bottom_front_long_beam_body:
+          arm_base_link_inertia:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottom_rear__long_beam_origin:
+          arm_flange:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          bottom_rear_long_beam_body:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          conveyor_left_end:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          conveyor_left_guide:
+          arm_forearm_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          conveyor_left_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          conveyor_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          conveyor_right_end:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          conveyor_right_guide:
+          arm_shoulder_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          conveyor_right_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          conveyor_surface:
+          arm_table_leg0:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          end_conveyor_left_leg:
+          arm_table_leg1:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          end_conveyor_right_leg:
+          arm_table_leg2:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          flange:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          forearm_link:
+          arm_table_leg3:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          ftsensor_base_link:
+          arm_table_top:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          ftsensor_flange_link:
+          arm_table_top_origin:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          ftsensor_wrench_link:
+          arm_table_top_origin_center:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+          arm_tool0:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          arm_upper_arm_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          arm_wrist_1_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          arm_wrist_2_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          arm_wrist_3_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_19_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_19_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_19_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_19_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_19_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_1_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_1_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_1_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_1_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_21_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_21_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_21_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_21_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_21_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_22_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_22_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_22_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_22_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_22_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_23_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_23_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_23_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_23_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_23_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_26_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_26_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_26_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_26_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_26_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_2_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_2_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_2_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_2_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_3_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_3_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_3_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_3_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_3_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_42_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_42_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_42_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_42_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_42_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_43_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_43_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_43_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_43_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_43_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_44_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_44_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_44_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_44_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_44_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_4_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_4_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_4_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_4_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_5_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_5_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_5_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_5_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_5_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_8_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_8_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_8_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_8_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_8_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_9_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_9_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_9_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_9_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_9_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          demo_floor_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           gripper_base_link:
             Alpha: 1
             Show Axes: false
@@ -242,104 +1192,147 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          origin_conveyor_left_leg:
+          ground:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_b0:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          origin_conveyor_right_leg:
+          rack_b0_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_b1:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          short_beam_ground__short_beam_origin:
+          rack_b1_lower:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          short_beam_ground_short_beam_body:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          short_beam_top__short_beam_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          short_beam_top_short_beam_body:
+          rack_b2:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          shoulder_link:
+          rack_b2_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_b3:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          stage_link:
+          rack_b3_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_b4:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          tool0:
+          rack_b4_lower:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          top_camera:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          top_camera_frame_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          upper_arm_link:
+          rack_b5:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          usb_camera_origin:
+          rack_b5_lower:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          vertical_front__long_beam_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          vertical_front_long_beam_body:
+          rack_t0:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          vertical_rear__long_beam_origin:
+          rack_t0_lower:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          vertical_rear_long_beam_body:
+          rack_t0_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t1:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
+          rack_t1_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t1_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          rack_t2_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t2_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          rack_t3_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t3_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          rack_t4_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t4_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          rack_t5_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t5_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           world:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          wrist_1_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          wrist_2_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          wrist_3_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-        Loop Animation: true
+        Loop Animation: false
         Robot Alpha: 0.5
         Robot Color: 150; 50; 150
         Show Robot Collision: false
@@ -360,7 +1353,7 @@ Visualization Manager:
         Colliding Link Color: 255; 0; 0
         Goal State Alpha: 1
         Goal State Color: 250; 128; 0
-        Interactive Marker Size: 0
+        Interactive Marker Size: 0.30000001192092896
         Joint Violation Color: 255; 0; 255
         Planning Group: arm
         Query Goal State: true
@@ -385,104 +1378,1049 @@ Visualization Manager:
           Expand Link Details: false
           Expand Tree: false
           Link Tree Style: Links in Alphabetic Order
-          base:
+          arm_base:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          base_link:
+          arm_base_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          base_link_inertia:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottom_front__long_beam_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          bottom_front_long_beam_body:
+          arm_base_link_inertia:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottom_rear__long_beam_origin:
+          arm_flange:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          bottom_rear_long_beam_body:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          conveyor_left_end:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          conveyor_left_guide:
+          arm_forearm_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          conveyor_left_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          conveyor_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          conveyor_right_end:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          conveyor_right_guide:
+          arm_shoulder_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          conveyor_right_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          conveyor_surface:
+          arm_table_leg0:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          end_conveyor_left_leg:
+          arm_table_leg1:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          end_conveyor_right_leg:
+          arm_table_leg2:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          flange:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          forearm_link:
+          arm_table_leg3:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          ftsensor_base_link:
+          arm_table_top:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          ftsensor_flange_link:
+          arm_table_top_origin:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          ftsensor_wrench_link:
+          arm_table_top_origin_center:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+          arm_tool0:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          arm_upper_arm_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          arm_wrist_1_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          arm_wrist_2_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          arm_wrist_3_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_1:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_18_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_18_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_19_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_19_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_19_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_19_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_19_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_19_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_1_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_1_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_1_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_1_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_1_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_20_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_20_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_21_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_21_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_21_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_21_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_21_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_21_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_22_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_22_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_22_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_22_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_22_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_22_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_23_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_23_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_23_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_23_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_23_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_23_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_26_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_26_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_26_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_26_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_26_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_26_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_2_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_2_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_2_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_2_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_2_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_3_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_3_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_3_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_3_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_3_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_3_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_41_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_41_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_42_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_42_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_42_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_42_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_42_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_42_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_43_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_43_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_43_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_43_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_43_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_43_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_44_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_44_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_44_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_44_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_44_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_44_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_4_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_4_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_4_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_4_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_4_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_5_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_5_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_5_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_5_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_5_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_5_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_8_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_8_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_8_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_8_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_8_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_8_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_9_backside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_9_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_center_bottom:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_center_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_frontside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_9_leftside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_9_lower_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_lower_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_rightside:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          box_9_upper_left_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          box_9_upper_right_top:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          demo_floor_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           gripper_base_link:
             Alpha: 1
             Show Axes: false
@@ -555,103 +2493,146 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          origin_conveyor_left_leg:
+          ground:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_b0:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          origin_conveyor_right_leg:
+          rack_b0_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_b1:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          short_beam_ground__short_beam_origin:
+          rack_b1_lower:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          short_beam_ground_short_beam_body:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          short_beam_top__short_beam_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          short_beam_top_short_beam_body:
+          rack_b2:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          shoulder_link:
+          rack_b2_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_b3:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          stage_link:
+          rack_b3_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_b4:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          tool0:
+          rack_b4_lower:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          top_camera:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          top_camera_frame_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          upper_arm_link:
+          rack_b5:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          usb_camera_origin:
+          rack_b5_lower:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          vertical_front__long_beam_origin:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          vertical_front_long_beam_body:
+          rack_t0:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          vertical_rear__long_beam_origin:
+          rack_t0_lower:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          vertical_rear_long_beam_body:
+          rack_t0_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t1:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
+          rack_t1_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t1_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          rack_t2_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t2_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t3:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          rack_t3_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t3_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t4:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          rack_t4_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t4_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t5:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          rack_t5_lower:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          rack_t5_upper:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           world:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          wrist_1_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          wrist_2_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          wrist_3_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
         Robot Alpha: 0.5
         Show Robot Collision: false
         Show Robot Visual: true
@@ -675,6 +2656,8 @@ Visualization Manager:
       Visual Enabled: false
     - Class: rviz/TF
       Enabled: false
+      Filter (blacklist): ""
+      Filter (whitelist): ""
       Frame Timeout: 15
       Frames:
         All Enabled: true
@@ -716,7 +2699,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2.1774284839630127
+      Distance: 7.574294567108154
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -732,9 +2715,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.12499968707561493
+      Pitch: 0.19999942183494568
       Target Frame: world
-      Yaw: 3.7049448490142822
+      Yaw: 3.149953603744507
     Saved: ~
 Window Geometry:
   Displays:
@@ -750,9 +2733,9 @@ Window Geometry:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000001f30000039efc0200000008fb000000100044006900730070006c006100790073010000003d000001c6000000c900fffffffb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a00560069006500770073000000010c000000a4000000a400fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000209000001d20000017d00fffffffb0000000a0049006d00610067006500000002990000009a0000001600ffffff0000053f0000039e00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000001f3000003a2fc0200000008fb000000100044006900730070006c006100790073010000003b000001c8000000c700fffffffb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a00560069006500770073000000010c000000a4000000a000fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000209000001d40000016900fffffffb0000000a0049006d00610067006500000002990000009a0000001600ffffff0000053f000003a200000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
   Width: 1848
-  X: 72
-  Y: 27
+  X: 310
+  Y: 308

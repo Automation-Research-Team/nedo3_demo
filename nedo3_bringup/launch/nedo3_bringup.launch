@@ -1,59 +1,98 @@
 <?xml version="1.0"?>
 <launch>
 
-  <arg name="debug"		     default="false"/>
-  <arg name="robot_ip"		     default="172.16.58.20"/>
-  <arg name="reverse_ip"	     default=""/>
-  <arg name="reverse_port"	     default="50001"/>
-  <arg name="script_sender_port"     default="50002"/>
-  <arg name="trajectory_port"	     default="50003"/>
-  <arg name="tf_prefix"		     default=""/>
-  <arg name="controllers"	     default="joint_state_controller
-					      scaled_pos_joint_traj_controller
-					      speed_scaling_state_controller
-					      force_torque_sensor_controller"/>
-  <arg name="stopped_controllers"    default="pos_joint_traj_controller
-					      joint_group_vel_controller"/>
-  <arg name="controller_config_file" default="$(find ur_robot_driver
-					      )/config/ur5e_controllers.yaml"/>
-  <arg name="robot_description_file" default="$(dirname
-					      )/load_robot_description.launch"/>
-  <arg name="kinematics_config"	     default="$(dirname
-  					      )/../etc/calibration_ur5e.yaml"/>
-  <arg name="use_tool_communication" default="false"/>
-  <arg name="tool_voltage"	     default="0"/>
-  <arg name="tool_parity"	     default="0"/>
-  <arg name="tool_baud_rate"	     default="115200"/>
-  <arg name="tool_stop_bits"	     default="1"/>
-  <arg name="tool_rx_idle_chars"     default="1.5"/>
-  <arg name="tool_tx_idle_chars"     default="3.5"/>
-  <arg name="tool_device_name"	     default="/tmp/ttyUR"/>
-  <arg name="tool_tcp_port"	     default="54321"/>
-  <arg name="headless_mode"	     default="false"/>
-  <arg name="ur_hardware_interface_node_required" default="true"/>
+  <arg name="sim"			default="false"/>    
 
+  <group if="$(arg sim)">
+    <!-- <include file="$(find nedo3_moveit_config)/launch/gazebo.launch"/> -->
+    
+    <arg name="gazebo_init_args"	value="-J arm_shoulder_pan_joint 1.5708
+					       -J arm_shoulder_lift_joint -2.1
+					       -J arm_elbow_joint 1.4
+					       -J arm_wrist_1_joint -0.85
+					       -J arm_wrist_2_joint -1.5708
+					       -J arm_wrist_3_joint 0.0"/>
 
-  <!-- Launch arm driver, controllers and robot_state_publisher -->
-  <include file="$(find ur_robot_driver)/launch/ur_common.launch"
-	   pass_all_args="true" />
+    <include file="$(dirname)/load_robot_description.launch"/>
 
+    <!-- Startup simulated world -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+      <arg name="world_name"	value="worlds/empty.world"/>
+      <arg name="paused"	value="true"/>
+      <arg name="gui"		value="true"/>
+      <arg name="verbose"	value="true"/>
+    </include>
 
-  <!-- Launch gripper driver and controller -->
-  <include file="$(find aist_robotiq)/launch/run.launch">
-    <arg name="prefix"		value="gripper_"/>
-    <arg name="device"		value="robotiq_85"/>
-    <arg name="driver"		value="urcap"/>
-    <arg name="ip_or_dev"	value="$(arg robot_ip)"/>
-  </include>
+    <node name="spawn_gazebo_model"
+          pkg="gazebo_ros" type="spawn_model"
+          args="-urdf -param robot_description
+                -model robot -unpause $(arg gazebo_init_args)"
+          output="screen"/>
 
+    <rosparam file="$(dirname)/../config/gazebo_controllers.yaml"/>
+    <node name="controller_spawner"
+	  pkg="controller_manager" type="spawner" output="screen"
+	  args="scaled_pos_joint_traj_controller
+		gripper_controller
+		joint_state_controller"/>
+
+    <node name="robot_state_publisher"
+	  pkg="robot_state_publisher" type="robot_state_publisher">
+      <param name="publish_frequency"	value="50"/>
+    </node>
+    
+  </group>
+
+  <group unless="$(arg sim)">
+    <!-- Launch arm driver, controllers and robot_state_publisher -->
+    <arg name="debug"			default="false"/>
+    <arg name="robot_ip"		default="172.16.58.20"/>
+    <arg name="reverse_ip"		default=""/>
+    <arg name="reverse_port"		default="50001"/>
+    <arg name="script_sender_port"	default="50002"/>
+    <arg name="trajectory_port"		default="50003"/>
+    <arg name="tf_prefix"		default=""/>
+    <arg name="controllers"
+	 default="joint_state_controller
+		  scaled_pos_joint_traj_controller
+		  speed_scaling_state_controller
+		  force_torque_sensor_controller"/>
+    <arg name="stopped_controllers"	default="pos_joint_traj_controller
+						 joint_group_vel_controller"/>
+    <arg name="controller_config_file"
+	 default="$(find ur_robot_driver)/config/ur5e_controllers.yaml"/>
+    <arg name="robot_description_file"
+	 default="$(dirname)/load_robot_description.launch"/>
+    <arg name="kinematics_config"
+	 default="$(dirname)/../config/arm_calibration.yaml"/>
+    <arg name="use_tool_communication"	default="false"/>
+    <arg name="tool_voltage"		default="0"/>
+    <arg name="tool_parity"		default="0"/>
+    <arg name="tool_baud_rate"		default="115200"/>
+    <arg name="tool_stop_bits"		default="1"/>
+    <arg name="tool_rx_idle_chars"	default="1.5"/>
+    <arg name="tool_tx_idle_chars"	default="3.5"/>
+    <arg name="tool_device_name"	default="/tmp/ttyUR"/>
+    <arg name="tool_tcp_port"		default="54321"/>
+    <arg name="headless_mode"		default="false"/>
+    <arg name="ur_hardware_interface_node_required"	 default="true"/>
+    <include file="$(find ur_robot_driver)/launch/ur_common.launch"
+	     pass_all_args="true" />
+
+    <!-- Launch gripper driver and controller -->
+    <include file="$(find aist_robotiq)/launch/run.launch">
+      <arg name="prefix"	value="gripper_"/>
+      <arg name="device"	value="robotiq_85"/>
+      <arg name="driver"	value="urcap"/>
+      <arg name="ip_or_dev"	value="$(arg robot_ip)"/>
+    </include>
+  </group>
 
   <!-- Launch move_group -->
-  <include file="$(find nedo3_moveit_config
-		 )/launch/move_group.launch">
+  <include file="$(find nedo3_moveit_config)/launch/move_group.launch">
     <arg name="load_robot_description" value="false"/>
   </include>
-
-
+  
   <!-- Launch rviz with appropriate config file -->
   <include file="$(find nedo3_moveit_config)/launch/moveit_rviz.launch">
     <arg name="rviz_config"

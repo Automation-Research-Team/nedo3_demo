@@ -13,7 +13,7 @@
   </include>
 
   <!-- Set the robot urdf on the parameter server -->
-  <param name="robot_description" textfile="$(find nedo3_moveit_config)/config/gazebo_ur5_with_gripper_and_ftsensor.urdf" />
+  <param name="robot_description" textfile="$(find nedo3_moveit_config)/config/gazebo_nedo3_demo.urdf" />
 
   <!-- Unpause the simulation after loading the robot model -->
   <arg name="unpause" value="$(eval '' if arg('paused') else '-unpause')" />
