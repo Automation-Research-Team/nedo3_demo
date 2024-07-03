@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro" name="showcase">
 
+  <xacro:arg name="kinematics_parameters_file"
+	     default="$(find ur_description
+		      )/config/ur5e/default_kinematics.yaml"/>
+
   <xacro:property name="lane_separation"	value="2.000"/>
   <xacro:property name="lane_width"		value="0.87"/>
   <xacro:property name="workspace_length"	value="${lane_separation
@@ -9,6 +13,13 @@
   <xacro:property name="rack_separation"	value="0.04"/>
   <xacro:property name="rack_t_setback"		value="-0.050"/>
   <xacro:property name="rack_t_elevation"	value="0.595"/>
+
+  <!-- UR5 physical installation (Tsukuba)-->
+  <xacro:property name="table_x" value="4.0"/>
+  <xacro:property name="table_y" value="-2.0"/>
+  <xacro:property name="table_w" value="0.3"/>
+  <xacro:property name="table_l" value="0.3"/>
+  <xacro:property name="table_h" value="0.7"/>
 
   <!-- Root frame -->
   <link name="world"/>
@@ -113,4 +124,46 @@
 			    part_props="${part_props}"
 			    box_props="${box_props}"/>
 
+  <!-- Table for mounting UR5e -->
+  <xacro:include filename="$(find nedo3_description)/urdf/table.urdf.xacro"/>
+  <xacro:table prefix="arm_"
+	       width="${table_w}" length="${table_l}" height="${table_h}"
+	       parent="ground">
+    <origin xyz="${table_x} ${table_y} 0" rpy="0 0 0"/>
+  </xacro:table>
+    
+    
+
+  <!-- Spawn UR5E arm -->
+  <xacro:include filename="$(find ur_gazebo)/urdf/ur_macro.xacro"/>
+  <xacro:ur_robot_gazebo
+      prefix="arm_"
+      joint_limits_parameters_file="$(find ur_description
+				    )/config/ur5e/joint_limits.yaml"
+      physical_parameters_file="$(find ur_description
+				)/config/ur5e/physical_parameters.yaml"
+      visual_parameters_file="$(find ur_description
+			      )/config/ur5e/visual_parameters.yaml"
+      kinematics_parameters_file="$(arg kinematics_parameters_file)"
+      transmission_hw_interface="hardware_interface/PositionJointInterface"/>
+  <joint name="arm_base_joint" type="fixed">
+    <origin xyz="${table_w/2} ${table_l/2} 0" rpy="0 0 0"/>
+    <parent link="arm_table_top" />
+    <child link="arm_base_link"/>
+  </joint>
+
+  <!-- Spawn and attach coupling -->
+  <xacro:include filename="$(find aist_robotiq
+  			   )/urdf/robotiq_arg2f_coupling.urdf.xacro"/>
+  <xacro:robotiq_arg2f_coupling prefix="gripper_coupling_" parent="arm_flange">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:robotiq_arg2f_coupling>
+
+  <!-- Spawn and attach gripper -->
+  <xacro:include filename="$(find aist_robotiq
+  			   )/urdf/robotiq_85_gripper.urdf.xacro"/>
+  <xacro:robotiq_85_gripper prefix="gripper_"
+			     parent="gripper_coupling_flange_link">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:robotiq_85_gripper>
 </robot>

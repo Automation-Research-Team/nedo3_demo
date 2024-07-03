@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="kinematics_params"
+       default="$(find ur_description)/config/ur5/default_kinematics.yaml"/>
+
+  <!-- Load URDF to parameter server -->
+  <param name="robot_description"
+	 command="$(find xacro)/xacro '$(dirname
+		  )/../urdf/picking_env.urdf.xacro'
+		  kinematics_params:=$(arg kinematics_params)"/>
+
+</launch>

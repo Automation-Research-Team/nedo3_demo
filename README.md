@@ -1,15 +1,12 @@
-toyota2パッケージのインストール法と使用法
+nedo3_demoパッケージのインストール法と使用法
 ==================================================
 
 ## 概要
-本ソフトウェアは，トヨタ自動車株式会社様と産業技術総合研究所の共同研究「AI道路インフラモビリティー技術の基盤に関する研究」(2020/04/01-2023/09/30)および「AI, DX/UXソリューション創出のための基盤技術に関する研究」(2023/10/01-2024/03/31)の成果物である．
+本ソフトウェアは，NEDO3プロジェクトのデモシステムを構築するためのROSパッケージコレクションである．依存する他のROSパッケージのうち，ROSの公式リポジトリや一般外部リポジトリに無いもの，あるいは既存のものに手を加えているものは，以下のとおりである．
 
-本ソフトウェアは，ベルトコンベア上を流れる自動車産廃に含まれるモーターをビジョンによって検出し，それをロボットアームでpick & placeするシステムを構築するためのものである．システムで使用するROSパッケージのうち，ROSの公式リポジトリや一般外部リポジトリに無いもの，あるいは既存のものに手を加えているものは，以下のとおりである．
-
-- [toyota2](https://github.com/Automation-Research-Team/toyota2): 本ソフトウェア．プロジェクトで新たに開発されたモーターピッキングタスク用ROSパッケージのコレクションであり，環境モデル，コンベアのシミュレータ，ピッキング動作ソフトウェア等を含む
-- [fanuc_sr20ia](https://github.com/Automation-Research-Team/fanuc_sr20ia): 後根様が作られたFANUCのSR20iaスカラアームを制御するROSパッケージ．植芝による若干の修正を含む
-- [artros](https://github.com/Automation-Research-Team/artros): 産総研で開発されたROSによるロボットシステム構築に有用なパッケージのコレクション
-- [darkenet_ros](https://github.com/Automation-Research-Team/darknet_ros): `YOLO v4`をROSノードとして動作させるパッケージ．[オリジナル](https://github.com/leggedrobotics/darknet_ros)の[派生バージョン](https://github.com/Ar-Ray-code/darknet_ros)に対し，さらに植芝がyamlファイルやlaunchファイルを修正してパラメータが正しく読み込まれるようにしたもの
+- [nedo3_demo](https://github.com/Automation-Research-Team/nedo3_demo): 本ソフトウェア
+- [universal_robot](https://github.com/Automation-Research-Team/universal_robot): DhaibaWorks上で表示するために，UR5eの可視化用メッシュの形式を[オリジナル](https://github.com/ros-industrial/universal_robot.git)における`Collada-DAE`から`STL`に変更してある
+- [aist_robotiq](https://github.com/Automation-Research-Team/aist_robotiq): Robotiq社のハンドを駆動するためのドライバとコントローラ
 
 ## インストール手順
 まずUbuntu-20.04上に`ros-noetic-desktop-full`をインストールした後，python関係のツールをインストールする．
@@ -21,37 +18,30 @@ $ sudo apt-get install python3-catkin-tools python3-rosdep python3-dev python3-n
 $ sudo rosdep init
 $ rosdep update
 ```
-`github`から`toyota2`を入手し，`develop`ブランチを取り出す．
+`github`から`nedo3_demo`を入手し，`develop`ブランチを取り出す．
 ```bash
 $ cd catkin_ws/src
-$ git clone git@github.com:Automation-Research-Team/toyota2.git
-$ cd toyota2
+$ git clone git@github.com:Automation-Research-Team/nedo3_demo.git
+$ cd nedo3_demo
 $ git checkout develop
 ```
-`github`から`fanuc_sr20ia`を入手し，`develop`ブランチを取り出す．
+`github`から`universal_robot`を入手し，`use-stl`ブランチを取り出す．
 ```bash
 $ cd catkin_ws/src
-$ git clone git@github.com:Automation-Research-Team/fanuc_sr20ia.git
-$ cd fanuc_sr20ia
+$ git clone git@github.com:Automation-Research-Team/universal_robot.git
+$ cd universal_robot
+$ git checkout use_stl
+```
+なお，既にオリジナルの`universal_robot`がインストールされている場合は，それを`catkin_ws`の外に退避して無効化しておくこと．
+
+`github`から`aist_robotiq`を入手し，`develop`ブランチを取り出す．
+```bash
+$ cd catkin_ws/src
+$ git clone git@github.com:Automation-Research-Team/aist_robotiqs.git
+$ cd aist_robotiq
 $ git checkout develop
 ```
-`github`から`artros`を入手し，`develop`ブランチを取り出す．さらに`artros`が使うsubmoduleをロードする．
-```bash
-$ cd catkin_ws/src
-$ git clone git@github.com:Automation-Research-Team/artros.git
-$ cd artros
-$ git checkout develop
-$ git submodule update --init
-```
-`github`から`darknet_ros`を入手し，`devel-aist`ブランチを取り出す．さらに`darknet_ros`が使うsubmoduleをロードする．
-```bash
-$ cd catkin_ws/src
-$ git clone git@github.com:Automation-Research-Team/darknet_ros.git
-$ cd darknet_ros
-$ git checkout devel-aist
-$ git submodule update --init
-```
-`fanuc_sr20ia`, `toyota2`, `artros`および`darkenet_ros` が必要とするパッケージをインストールする．
+`nedo3_demo`, `universal_robot`および`aist_robotiq` が必要とするパッケージをインストールする．
 ```bash
 $ cd catkin_ws/src
 $ rosdep install -i --from-paths .

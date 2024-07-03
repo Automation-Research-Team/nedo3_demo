@@ -6,18 +6,11 @@ nedo3_description
 
 ## urdfサブディレクトリ
 - [nedo3_demo.urdf.xacro](./urdf/nedo3_demo.urdf.xacro): NEDO3デモ環境モデル．ラックやアームの配置を変更する場合は，本ファイルを編集する
-- 
-また，アームのエンドエフェクタに取り付けるマグネットグリッパに関連するモデルとして，次の4モデルを含む．
-- [fste_hdb_45.urdf.xacro](./urdf/fste_hdb_45.urdf.xacro): シュマルツのスプリングプランジャー[FSTE-HDB](https://www.schmalz.co.jp/ja-jp/vacuum-technology-for-automation/vacuum-components/mounting-elements/spring-plungers/spring-plungers-fste-hdb-307103/)(45mmストローク)のモデル
-- [fste_hdb_80.urdf.xacro](./urdf/fste_hdb_80.urdf.xacro): シュマルツのスプリングプランジャー[FSTE-HDB](https://www.schmalz.co.jp/ja-jp/vacuum-technology-for-automation/vacuum-components/mounting-elements/spring-plungers/spring-plungers-fste-hdb-307103/)(80mmストローク)のモデル
-- [sgm_hp30.urdf.xacro](./urdf/sgm_hp30.urdf.xacro): シュマルツのマグネットグリッパ[SGM-HP30](https://www.schmalz.co.jp/ja-jp/vacuum-technology-for-automation/vacuum-components/special-grippers/magnetic-grippers/magnetic-grippers-sgm-hp-ht-306089/10.01.17.00316/)のモデル
-- [plunger_fixture.urdf.xacro](./urdf/plunger_fixture.urdf.xacro): プランジャーをエンドエフェクタに取り付ける治具のモデル
-
-さらに，次の4モデルを含む．
-- [conveyor.urdf.xacro](./urdf/conveyor.urdf.xacro): ベルトコンベア（足を含まない）のモデル．長さと幅を指定可能
-- [conveyor_pillar.urdf.xacro](./urdf/conveyor_pillar.urdf.xacro): 左右一本ずつ一組みのコンベアの足のモデル．コンベア原点からの距離，左右の足の間隔および足の高さを指定可能
-- [part_box.urdf.xacro](./urdf/parts_box.urdf.xacro): モーター回収箱のモデル．長さ，幅および高さを指定可能
-- [table.urdf.xacro](./urdf/table.urdf.xacro): アームの架台のモデル．長さ，幅および高さを指定可能
+- [rack_b.urdf.xacro](./urdf/rack_b.urdf.xacro): 床置きするベースラックのモデル
+- [rack_t.urdf.xacro](./urdf/rack_t.urdf.xacro): ベースラックの上に乗せるトップラックのモデル
+- [floor.urdf.xacro](./urdf/floor.urdf.xacro): テクスチャを貼った床のモデル
+- [part_box_urdf.xacro](./urdf/parts_box.urdf.xacro): 部品箱のモデル．幅，奥行き，高さ，厚さ等を指定することによって様々な形状の箱を生成可能
+- [put_boxes_on_racks.urdf.xacro](./urdf/put_boxes_on_racks.urdf.xacro): ラック上に部品箱を乗せるためのxacroファイル
 
 個々のモデル(`xxx.urdf.xacro`)は，拡張子が`urdf`である対応ファイル(`xxx.urdf`)によってモデルツリーのルートを付加することにより，以下のコマンドで可視化できる．
 ```
@@ -27,5 +20,13 @@ $ roslauch urdf_tutorial display.launch model:=xxx.urdf
 ```
 $ roslauch urdf_tutorial display.launch model:=nedo3_demo.urdf.xacro
 ```
+## configサブディレクトリ
+ - [box_props.yaml](./config/box_props.yaml): 部品箱の属性
+ - [part_props.yaml](./config/part_props.yaml): 部品の属性．この部品を入れている部品箱の種別も記録されている
+ - [rack_props.yaml](./config/rack_props.yaml): ラックの属性．上段，下段それぞれに載せられている部品もここで指定する
+
 ## meshesサブディレクトリ
 2種のラックのメッシュモデルを含む．[visualサブディレクトリ](./meshes/visual)には表示用の高解像度モデルが，[collisionサブディレクトリ](./meshes/collision/)には衝突判定用の低解像度モデルがそれぞれ収められている．これらは，URDFファイルから参照される．
+
+## mediaサブディレクトリ
+床モデルに貼るテクスチャが収められている．

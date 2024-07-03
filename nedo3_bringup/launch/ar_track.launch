@@ -1,0 +1,36 @@
+<launch>
+
+  <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="log" >
+    <param name="camera_frame_id" value="usb_cam" />
+    <param name="camera_info_url" type="string" value="package://calibrated_ur5/usbcameradata/ost.yaml" />
+    <param name="pixel_format" value="yuyv"/>
+  </node>
+
+<!-- I had the same problem, I solved it by adding _pixel_format:="yuyv" to the rosrun command. I hope this helps. -->
+
+  
+  <arg name="marker_size" default="3.8" />
+  <arg name="max_new_marker_error" default="0.08" />
+  <arg name="max_track_error" default="0.2" />
+  <arg name="cam_image_topic" default="/usb_cam/image_raw" />
+  <arg name="cam_info_topic" default="/usb_cam/camera_info" />
+  <arg name="output_frame" default="/usb_cam" />
+ 
+  <node name="ar_track_alvar" pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="log"
+    args="$(arg marker_size) $(arg max_new_marker_error) $(arg max_track_error) 
+          $(arg cam_image_topic) $(arg cam_info_topic) $(arg output_frame)" />
+  
+
+  <!-- setting static tf for the usb-camera -->
+  <arg name="pi" value="3.14159265" />
+  <arg name="yaw" default="$(eval 0.5 * arg('pi'))" />
+  <arg name="roll" default="$(arg pi)" />
+  <arg name="zshift" default="0.02" />
+
+
+  <node pkg="tf" type="static_transform_publisher" name="usbcam_to_frame" output="log"
+    args="0 0 $(arg zshift) $(arg yaw) 0 $(arg roll) top_camera usb_cam 10" />
+
+  <!-- static_transform_publisher x y z yaw pitch roll frame_id child_frame_id period_in_ms -->
+ 
+ </launch>
