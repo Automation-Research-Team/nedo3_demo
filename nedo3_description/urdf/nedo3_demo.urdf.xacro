@@ -7,7 +7,8 @@
 						       + lane_width}"/>
   <xacro:property name="rack_width"		value="0.85"/>
   <xacro:property name="rack_separation"	value="0.04"/>
-  <xacro:property name="rack_t_elevation"	value="0.20"/>
+  <xacro:property name="rack_t_setback"		value="-0.050"/>
+  <xacro:property name="rack_t_elevation"	value="0.595"/>
 
   <!-- Root frame -->
   <link name="world"/>
@@ -41,40 +42,58 @@
   <xacro:include filename="$(find nedo3_description
 			   )/urdf/rack_t.urdf.xacro"/>
   <xacro:rack_t name="rack_t0" parent="rack_b0">
-    <origin xyz="0 0 ${rack_t_elevation}" rpy="0 0 0"/>
+    <origin xyz="0 ${rack_t_setback} ${rack_t_elevation}" rpy="0 0 0"/>
   </xacro:rack_t>
 
   <!-- rack_b1 -->
   <xacro:rack_b name="rack_b1" parent="rack_b0">
     <origin xyz="${rack_width + rack_separation} 0 0" rpy="0 0 0"/>
   </xacro:rack_b>
+
+  <!-- rack_t1 -->
   <xacro:rack_t name="rack_t1" parent="rack_b1">
-    <origin xyz="0 0 ${rack_t_elevation}" rpy="0 0 0"/>
+    <origin xyz="0 ${rack_t_setback} ${rack_t_elevation}" rpy="0 0 0"/>
   </xacro:rack_t>
 
   <!-- rack_b2 -->
   <xacro:rack_b name="rack_b2" parent="rack_b1">
     <origin xyz="${rack_width + rack_separation} 0 0" rpy="0 0 0"/>
   </xacro:rack_b>
+
+  <!-- rack_t2 -->
   <xacro:rack_t name="rack_t2" parent="rack_b2">
-    <origin xyz="0 0 ${rack_t_elevation}" rpy="0 0 0"/>
+    <origin xyz="0 ${rack_t_setback} ${rack_t_elevation}" rpy="0 0 0"/>
   </xacro:rack_t>
 
   <!-- rack_b3 -->
   <xacro:rack_b name="rack_b3" parent="rack_b2">
     <origin xyz="${rack_width + rack_separation} 0 0" rpy="0 0 0"/>
   </xacro:rack_b>
+
+  <!-- rack_t3 -->
   <xacro:rack_t name="rack_t3" parent="rack_b3">
-    <origin xyz="0 0 ${rack_t_elevation}" rpy="0 0 0"/>
+    <origin xyz="0 ${rack_t_setback} ${rack_t_elevation}" rpy="0 0 0"/>
   </xacro:rack_t>
 
   <!-- rack_b4 -->
-  <xacro:rack_b name="rack_b4" parent="ground">
+  <xacro:rack_b name="rack_b4" parent="rack_b3">
+    <origin xyz="${rack_width + rack_separation} 0 0" rpy="0 0 0"/>
+  </xacro:rack_b>
+
+  <!-- rack_t4 -->
+  <xacro:rack_t name="rack_t4" parent="rack_b4">
+    <origin xyz="0 ${rack_t_setback} ${rack_t_elevation}" rpy="0 0 0"/>
+  </xacro:rack_t>
+
+  <!-- rack_b5 -->
+  <xacro:rack_b name="rack_b5" parent="ground">
     <origin xyz="${1.5 + rack_width} ${-workspace_length/2} 0"
 	    rpy="0 0 ${pi}"/>
   </xacro:rack_b>
-  <xacro:rack_t name="rack_t4" parent="rack_b4">
-    <origin xyz="0 0 ${rack_t_elevation}" rpy="0 0 0"/>
+
+  <!-- rack_t5 -->
+  <xacro:rack_t name="rack_t5" parent="rack_b5">
+    <origin xyz="0 ${rack_t_setback} ${rack_t_elevation}" rpy="0 0 0"/>
   </xacro:rack_t>
 
   <!-- Put boxes on shooters -->
