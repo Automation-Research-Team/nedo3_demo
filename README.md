@@ -57,9 +57,10 @@ $ catkin build
 ### アームとグリッパの動作を確認
 以下の手順でアームとグリッパを立ち上げる．
 ```bash
-$ roslaunch nedo3_bringup nedo3_bringup.launch [sim:=true]
+$ roslaunch nedo3_bringup nedo3_bringup.launch [sim:=true] [robot_ip:=<IP address>]
 ```
- - `sim:=true` を指定すればシミュレータが起動し，シミュレーションでアームの動作を確認できる．`sim:=false`ならば，実アームおよび実グリッパが起動する．デフォルトは`false`
+ - `sim:=true` を指定すればシミュレータが起動し，シミュレーションでアームとグリッパの動作を確認できる．`sim:=false`ならば，実アームおよび実グリッパが起動する．デフォルトは`false`
+ - `sim:=false`の場合に`robot_ip:=<IP address>`によってURアームのIP addressを指定する．
 
 
 `Rviz`も一緒に起動する．アームには予めいくつかの姿勢(`home`, `back`, `mirrored_ready`, etc.)が登録されており，その中の一つをMotionPlanningタブ中の"Goal State:"から選んで"Plan & Execute"ボタンを押せばそこに移動させることができる．あるいは，Interactive Markerで対話的にアームを動かすこともできる．
