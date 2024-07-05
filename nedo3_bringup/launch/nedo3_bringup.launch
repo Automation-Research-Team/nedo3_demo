@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-  <arg name="sim"	default="false"/>    
+  <arg name="sim"	default="false"/>
 
   <!-- Settings for gazebo simulation -->
   <group if="$(arg sim)">
@@ -19,7 +19,7 @@
     <!--   <arg name="initial_joint_positions" -->
     <!-- 	   value="$(arg initial_joint_positions)"/> -->
     <!-- </include> -->
-    
+
     <include file="$(dirname)/load_robot_description.launch"/>
 
     <!-- Startup simulated world -->
@@ -46,7 +46,7 @@
 	  pkg="robot_state_publisher" type="robot_state_publisher">
       <param name="publish_frequency"	value="50"/>
     </node>
-    
+
   </group>
 
   <!-- Settings for real robots -->
@@ -100,11 +100,14 @@
   <include file="$(find nedo3_moveit_config)/launch/move_group.launch">
     <arg name="load_robot_description" value="false"/>
   </include>
-  
+
   <!-- Launch rviz with appropriate config file -->
   <include file="$(find nedo3_moveit_config)/launch/moveit_rviz.launch">
     <arg name="rviz_config"
 	 value="$(find nedo3_moveit_config)/launch/moveit.rviz"/>
   </include>
+
+  <!-- Launch urdf publisher for DhaibaConnect -->
+  <include file="$(find dhaiba_ros)/launch/publish_urdf.launch"/>
 
 </launch>

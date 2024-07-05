@@ -69,8 +69,8 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.25" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_b0_joint" type="fixed">
@@ -110,8 +110,8 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.4" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_t0_joint" type="fixed">
@@ -154,8 +154,8 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.25" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_b1_joint" type="fixed">
@@ -192,8 +192,8 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.4" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_t1_joint" type="fixed">
@@ -236,8 +236,8 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.25" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_b2_joint" type="fixed">
@@ -274,8 +274,8 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.4" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_t2_joint" type="fixed">
@@ -318,8 +318,8 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.25" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_b3_joint" type="fixed">
@@ -356,8 +356,8 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.4" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_t3_joint" type="fixed">
@@ -400,8 +400,8 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.25" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_b4_joint" type="fixed">
@@ -438,8 +438,8 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.4" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_t4_joint" type="fixed">
@@ -482,14 +482,14 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.25" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_b5_joint" type="fixed">
         <parent link="ground" />
         <child link="rack_b5" />
-        <origin rpy="0 0 3.141592653589793" xyz="2.35 -1.435 0" />
+        <origin rpy="0 0 3.141592653589793" xyz="6.5 -1.435 0" />
     </joint>
     <link name="rack_b5_lower" />
     <joint name="rack_b5_lower_joint" type="fixed">
@@ -520,8 +520,8 @@
         <!-- Required for Gazebo -->
         <inertial>
             <mass value="20.0" />
+            <origin rpy="0 0 0" xyz="0.425 0.75 0.4" />
             <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-            <origin xyz="0 0 0" rpy="0 0 0" />
         </inertial>
     </link>
     <joint name="rack_t5_joint" type="fixed">
@@ -4335,7 +4335,7 @@
     <joint name="arm_table_leg1" type="fixed">
         <parent link="arm_table_leg0" />
         <child link="arm_table_leg1" />
-        <origin rpy="0 0 0" xyz="0.25 0 0" />
+        <origin rpy="0 0 0" xyz="0.95 0 0" />
     </joint>
     <!-- This creates a box with the origin in the bottom corner, fixed to the world link. -->
     <link name="arm_table_leg2">
@@ -4368,7 +4368,7 @@
     <joint name="arm_table_leg2" type="fixed">
         <parent link="arm_table_leg0" />
         <child link="arm_table_leg2" />
-        <origin rpy="0 0 0" xyz="0 0.25 0" />
+        <origin rpy="0 0 0" xyz="0 0.6499999999999999 0" />
     </joint>
     <!-- This creates a box with the origin in the bottom corner, fixed to the world link. -->
     <link name="arm_table_leg3">
@@ -4401,23 +4401,23 @@
     <joint name="arm_table_leg3" type="fixed">
         <parent link="arm_table_leg0" />
         <child link="arm_table_leg3" />
-        <origin rpy="0 0 0" xyz="0.25      0.25      0" />
+        <origin rpy="0 0 0" xyz="0.95      0.6499999999999999      0" />
     </joint>
     <!-- This creates a box with the origin in the bottom corner, fixed to the world link. -->
     <link name="arm_table_top">
         <visual>
-            <origin rpy="0 0 0" xyz="0.15 0.15 0.01" />
+            <origin rpy="0 0 0" xyz="0.5 0.35 0.01" />
             <geometry>
-                <box size="0.3 0.3 0.02" />
+                <box size="1.0 0.7 0.02" />
             </geometry>
             <material name="Grey">
                 <color rgba="0.7 0.7 0.7 1" />
             </material>
         </visual>
         <collision>
-            <origin rpy="0 0 0" xyz="0.15 0.15 0.01" />
+            <origin rpy="0 0 0" xyz="0.5 0.35 0.01" />
             <geometry>
-                <box size="0.3 0.3 0.02" />
+                <box size="1.0 0.7 0.02" />
             </geometry>
         </collision>
         <!-- This is required for Gazebo. -->
@@ -4445,7 +4445,7 @@
     <joint name="arm_table_top_origin_center" type="fixed">
         <parent link="arm_table_top_origin" />
         <child link="arm_table_top_origin_center" />
-        <origin rpy="0 0 0" xyz="0.15 0.15 0" />
+        <origin rpy="0 0 0" xyz="0.5 0.35 0" />
     </joint>
     <link name="arm_table_top_origin_center" />
     <!--

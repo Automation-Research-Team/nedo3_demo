@@ -1,57 +1,27 @@
-rack_b0:
-  width: 0.85
-  box_separation: 0.01
-  upper: []
-  lower: []
 rack_t0:
   width: 0.85
   box_separation: 0.01
   upper: [part_22, part_8]
   lower: [part_1, part_2]
-rack_b1:
-  width: 0.85
-  box_separation: 0.01
-  upper: []
-  lower: []
 rack_t1:
   width: 0.85
   box_separation: 0.01
   upper: [part_44, part_43]
   lower: [part_3, part_4]
-rack_b2:
-  width: 0.85
-  box_separation: 0.01
-  upper: []
-  lower: []
 rack_t2:
   width: 0.85
   box_separation: 0.01
   upper: [part_42, part_41]
   lower: [part_5, part_9]
-rack_b3:
-  width: 0.85
-  box_separation: 0.01
-  upper: []
-  lower: []
 rack_t3:
   width: 0.85
   box_separation: 0.01
   upper: [part_18, part_19]
   lower: [part_23, part_26]
-rack_b4:
-  width: 0.85
-  box_separation: 0.01
-  upper: []
-  lower: []
 rack_t4:
   width: 0.85
   box_separation: 0.01
   upper: [part_20, part_21]
-  lower: []
-rack_b5:
-  width: 0.85
-  box_separation: 0.01
-  upper: []
   lower: []
 rack_t5:
   width: 0.85
