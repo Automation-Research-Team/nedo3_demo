@@ -97,6 +97,5 @@ urdf_publisher/armature.Armature::Definition (dhc::Armature)
 urdf_publisher/armature.Armature::LinkState (dhc::LinkState)
 ...
 ```
- - ダイアログウィンドウで`Select All`を押して全トピックを選択し，`OK`を押してこれらをsubscribeする.
- - すると「表示」に`ROS`から送られた環境モデルが表示される．アームの動きもリアルタイムで反映される．
+ - ダイアログウィンドウで`Select All`を押して全トピックを選択し，`OK`を押してこれらをsubscribeする．すると，「表示」に`ROS`から送られた環境モデルが表示される．アームの動きもリアルタイムで反映される．
  - 「エレメントリスト」中の`armature`を選択した状態でTABを押すと,その内部構造(Link tree, 各linkのプロパティ等)が表示される.
