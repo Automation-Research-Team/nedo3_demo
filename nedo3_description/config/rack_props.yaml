@@ -7,12 +7,12 @@ rack_t1:
   width: 0.85
   box_separation: 0.01
   upper: [part_44, part_43]
-  lower: [part_3, part_4]
+  lower: []
 rack_t2:
   width: 0.85
   box_separation: 0.01
   upper: [part_42, part_41]
-  lower: [part_5, part_9]
+  lower: []
 rack_t3:
   width: 0.85
   box_separation: 0.01
@@ -27,4 +27,4 @@ rack_t5:
   width: 0.85
   box_separation: 0.01
   upper: []
-  lower: []
+  lower: [part_5, part_9]
