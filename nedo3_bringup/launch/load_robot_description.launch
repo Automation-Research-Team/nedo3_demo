@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <launch>
 
-  <arg name="kinematics_params"
+  <arg name="kinematics_config"
        default="$(find ur_description)/config/ur5e/default_kinematics.yaml"/>
 
   <!-- Load URDF to parameter server -->
   <param name="robot_description"
 	 command="$(find xacro)/xacro '$(find nedo3_description
 		  )/urdf/nedo3_demo.urdf.xacro'
-		  kinematics_params:=$(arg kinematics_params)"/>
+		  kinematics_parameters_file:=$(arg kinematics_config)"/>
 
 </launch>

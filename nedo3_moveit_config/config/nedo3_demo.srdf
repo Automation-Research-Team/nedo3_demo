@@ -107,12 +107,6 @@
     <disable_collisions link1="arm_base_link_inertia" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_base_link_inertia" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_base_link_inertia" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_base_link_inertia" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_base_link_inertia" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_base_link_inertia" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_base_link_inertia" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_base_link_inertia" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_base_link_inertia" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_base_link_inertia" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_base_link_inertia" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_base_link_inertia" link2="box_41_frontside" reason="Never"/>
@@ -133,10 +127,6 @@
     <disable_collisions link1="arm_base_link_inertia" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_base_link_inertia" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_base_link_inertia" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_base_link_inertia" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_base_link_inertia" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_base_link_inertia" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_base_link_inertia" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_base_link_inertia" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_base_link_inertia" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_base_link_inertia" link2="box_5_frontside" reason="Never"/>
@@ -213,12 +203,6 @@
     <disable_collisions link1="arm_forearm_link" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_forearm_link" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_forearm_link" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_forearm_link" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_forearm_link" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_forearm_link" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_forearm_link" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_41_frontside" reason="Never"/>
@@ -239,10 +223,6 @@
     <disable_collisions link1="arm_forearm_link" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_forearm_link" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_forearm_link" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_forearm_link" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_forearm_link" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_forearm_link" link2="box_5_frontside" reason="Never"/>
@@ -322,12 +302,6 @@
     <disable_collisions link1="arm_shoulder_link" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_shoulder_link" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_shoulder_link" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_shoulder_link" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_shoulder_link" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_shoulder_link" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_shoulder_link" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_shoulder_link" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_shoulder_link" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_shoulder_link" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_shoulder_link" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_shoulder_link" link2="box_41_frontside" reason="Never"/>
@@ -348,10 +322,6 @@
     <disable_collisions link1="arm_shoulder_link" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_shoulder_link" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_shoulder_link" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_shoulder_link" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_shoulder_link" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_shoulder_link" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_shoulder_link" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_shoulder_link" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_shoulder_link" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_shoulder_link" link2="box_5_frontside" reason="Never"/>
@@ -430,12 +400,6 @@
     <disable_collisions link1="arm_table_leg0" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_table_leg0" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_table_leg0" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg0" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_table_leg0" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg0" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg0" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg0" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg0" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_table_leg0" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_table_leg0" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_table_leg0" link2="box_41_frontside" reason="Never"/>
@@ -456,10 +420,6 @@
     <disable_collisions link1="arm_table_leg0" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_table_leg0" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_table_leg0" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg0" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg0" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg0" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg0" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_table_leg0" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_table_leg0" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_table_leg0" link2="box_5_frontside" reason="Never"/>
@@ -536,12 +496,6 @@
     <disable_collisions link1="arm_table_leg1" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_table_leg1" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_table_leg1" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg1" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_table_leg1" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg1" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg1" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg1" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg1" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_table_leg1" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_table_leg1" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_table_leg1" link2="box_41_frontside" reason="Never"/>
@@ -562,10 +516,6 @@
     <disable_collisions link1="arm_table_leg1" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_table_leg1" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_table_leg1" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg1" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg1" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg1" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg1" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_table_leg1" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_table_leg1" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_table_leg1" link2="box_5_frontside" reason="Never"/>
@@ -642,12 +592,6 @@
     <disable_collisions link1="arm_table_leg2" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg2" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_table_leg2" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg2" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg2" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg2" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg2" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="box_41_frontside" reason="Never"/>
@@ -668,10 +612,6 @@
     <disable_collisions link1="arm_table_leg2" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg2" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg2" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg2" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg2" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="box_5_frontside" reason="Never"/>
@@ -700,7 +640,6 @@
     <disable_collisions link1="arm_table_leg2" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="rack_t4" reason="Never"/>
     <disable_collisions link1="arm_table_leg2" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="arm_table_leg3" link2="arm_table_top" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="arm_upper_arm_link" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_1" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_18" reason="Never"/>
@@ -747,12 +686,6 @@
     <disable_collisions link1="arm_table_leg3" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg3" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_table_leg3" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg3" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg3" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg3" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg3" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_41_frontside" reason="Never"/>
@@ -773,10 +706,6 @@
     <disable_collisions link1="arm_table_leg3" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg3" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg3" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg3" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_table_leg3" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_table_leg3" link2="box_5_frontside" reason="Never"/>
@@ -850,12 +779,6 @@
     <disable_collisions link1="arm_table_top" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_table_top" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_table_top" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_top" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_table_top" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_table_top" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_table_top" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_table_top" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_top" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_table_top" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_table_top" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_table_top" link2="box_41_frontside" reason="Never"/>
@@ -876,10 +799,6 @@
     <disable_collisions link1="arm_table_top" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_table_top" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_table_top" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_table_top" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_table_top" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_table_top" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_table_top" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_table_top" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_table_top" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_table_top" link2="box_5_frontside" reason="Never"/>
@@ -953,12 +872,6 @@
     <disable_collisions link1="arm_upper_arm_link" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_upper_arm_link" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_upper_arm_link" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_upper_arm_link" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_upper_arm_link" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_upper_arm_link" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_upper_arm_link" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_upper_arm_link" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_upper_arm_link" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_upper_arm_link" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_upper_arm_link" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_upper_arm_link" link2="box_41_frontside" reason="Never"/>
@@ -979,10 +892,6 @@
     <disable_collisions link1="arm_upper_arm_link" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_upper_arm_link" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_upper_arm_link" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_upper_arm_link" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_upper_arm_link" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_upper_arm_link" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_upper_arm_link" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_upper_arm_link" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_upper_arm_link" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_upper_arm_link" link2="box_5_frontside" reason="Never"/>
@@ -1058,12 +967,6 @@
     <disable_collisions link1="arm_wrist_1_link" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_wrist_1_link" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_wrist_1_link" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_1_link" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_wrist_1_link" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_1_link" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_1_link" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_1_link" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_1_link" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_wrist_1_link" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_wrist_1_link" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_wrist_1_link" link2="box_41_frontside" reason="Never"/>
@@ -1084,10 +987,6 @@
     <disable_collisions link1="arm_wrist_1_link" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_wrist_1_link" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_wrist_1_link" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_1_link" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_1_link" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_1_link" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_1_link" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_wrist_1_link" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_wrist_1_link" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_wrist_1_link" link2="box_5_frontside" reason="Never"/>
@@ -1173,12 +1072,6 @@
     <disable_collisions link1="arm_wrist_2_link" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_wrist_2_link" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_wrist_2_link" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_2_link" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_wrist_2_link" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_2_link" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_2_link" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_2_link" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_2_link" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_wrist_2_link" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_wrist_2_link" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_wrist_2_link" link2="box_41_frontside" reason="Never"/>
@@ -1199,10 +1092,6 @@
     <disable_collisions link1="arm_wrist_2_link" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_wrist_2_link" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_wrist_2_link" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_2_link" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_2_link" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_2_link" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_2_link" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_wrist_2_link" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_wrist_2_link" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_wrist_2_link" link2="box_5_frontside" reason="Never"/>
@@ -1287,12 +1176,6 @@
     <disable_collisions link1="arm_wrist_3_link" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="arm_wrist_3_link" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="arm_wrist_3_link" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_3_link" link2="box_3" reason="Never"/>
-    <disable_collisions link1="arm_wrist_3_link" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_3_link" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_3_link" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_3_link" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_3_link" link2="box_4" reason="Never"/>
     <disable_collisions link1="arm_wrist_3_link" link2="box_41" reason="Never"/>
     <disable_collisions link1="arm_wrist_3_link" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="arm_wrist_3_link" link2="box_41_frontside" reason="Never"/>
@@ -1313,10 +1196,6 @@
     <disable_collisions link1="arm_wrist_3_link" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="arm_wrist_3_link" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="arm_wrist_3_link" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_3_link" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_3_link" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_3_link" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="arm_wrist_3_link" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="arm_wrist_3_link" link2="box_5" reason="Never"/>
     <disable_collisions link1="arm_wrist_3_link" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="arm_wrist_3_link" link2="box_5_frontside" reason="Never"/>
@@ -1400,12 +1279,6 @@
     <disable_collisions link1="box_1" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_1" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_1" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_1" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_1" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_1" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_1" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_1" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_1" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_1" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_1" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_1" link2="box_41_frontside" reason="Never"/>
@@ -1426,10 +1299,6 @@
     <disable_collisions link1="box_1" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_1" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_1" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_1" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_1" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_1" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_1" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_1" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_1" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_1" link2="box_5_frontside" reason="Never"/>
@@ -1513,12 +1382,6 @@
     <disable_collisions link1="box_18" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_18" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_18" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_18" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_18" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_18" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_18" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_18" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_18" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_18" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_18" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_18" link2="box_41_frontside" reason="Never"/>
@@ -1539,10 +1402,6 @@
     <disable_collisions link1="box_18" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_18" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_18" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_18" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_18" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_18" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_18" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_18" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_18" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_18" link2="box_5_frontside" reason="Never"/>
@@ -1625,12 +1484,6 @@
     <disable_collisions link1="box_18_backside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_18_backside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_18_backside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_backside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_18_backside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_18_backside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_18_backside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_18_backside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_backside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_18_backside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_18_backside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_18_backside" link2="box_41_frontside" reason="Never"/>
@@ -1651,10 +1504,6 @@
     <disable_collisions link1="box_18_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_18_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_18_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_18_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_18_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_18_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_18_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_18_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_18_backside" link2="box_5_frontside" reason="Never"/>
@@ -1736,12 +1585,6 @@
     <disable_collisions link1="box_18_frontside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_18_frontside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_18_frontside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_frontside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_18_frontside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_18_frontside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_18_frontside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_18_frontside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_frontside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_18_frontside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_18_frontside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_18_frontside" link2="box_41_frontside" reason="Never"/>
@@ -1762,10 +1605,6 @@
     <disable_collisions link1="box_18_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_18_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_18_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_18_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_18_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_18_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_18_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_18_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_18_frontside" link2="box_5_frontside" reason="Never"/>
@@ -1846,12 +1685,6 @@
     <disable_collisions link1="box_18_leftside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_18_leftside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_18_leftside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_leftside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_18_leftside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_18_leftside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_18_leftside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_18_leftside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_leftside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_18_leftside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_18_leftside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_18_leftside" link2="box_41_frontside" reason="Never"/>
@@ -1872,10 +1705,6 @@
     <disable_collisions link1="box_18_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_18_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_18_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_18_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_18_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_18_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_18_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_18_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_18_leftside" link2="box_5_frontside" reason="Never"/>
@@ -1955,12 +1784,6 @@
     <disable_collisions link1="box_18_rightside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_18_rightside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_18_rightside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_rightside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_18_rightside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_18_rightside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_18_rightside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_18_rightside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_rightside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_18_rightside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_18_rightside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_18_rightside" link2="box_41_frontside" reason="Never"/>
@@ -1981,10 +1804,6 @@
     <disable_collisions link1="box_18_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_18_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_18_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_18_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_18_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_18_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_18_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_18_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_18_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_18_rightside" link2="box_5_frontside" reason="Never"/>
@@ -2063,12 +1882,6 @@
     <disable_collisions link1="box_19" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_19" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_19" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_19" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_19" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_19" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_19" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_19" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_19" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_19" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_19" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_19" link2="box_41_frontside" reason="Never"/>
@@ -2089,10 +1902,6 @@
     <disable_collisions link1="box_19" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_19" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_19" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_19" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_19" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_19" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_19" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_19" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_19" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_19" link2="box_5_frontside" reason="Never"/>
@@ -2170,12 +1979,6 @@
     <disable_collisions link1="box_19_backside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_19_backside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_19_backside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_backside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_19_backside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_19_backside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_19_backside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_19_backside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_backside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_19_backside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_19_backside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_19_backside" link2="box_41_frontside" reason="Never"/>
@@ -2196,10 +1999,6 @@
     <disable_collisions link1="box_19_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_19_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_19_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_19_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_19_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_19_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_19_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_19_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_19_backside" link2="box_5_frontside" reason="Never"/>
@@ -2276,12 +2075,6 @@
     <disable_collisions link1="box_19_frontside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_19_frontside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_19_frontside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_frontside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_19_frontside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_19_frontside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_19_frontside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_19_frontside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_frontside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_19_frontside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_19_frontside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_19_frontside" link2="box_41_frontside" reason="Never"/>
@@ -2302,10 +2095,6 @@
     <disable_collisions link1="box_19_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_19_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_19_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_19_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_19_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_19_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_19_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_19_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_19_frontside" link2="box_5_frontside" reason="Never"/>
@@ -2381,12 +2170,6 @@
     <disable_collisions link1="box_19_leftside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_19_leftside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_19_leftside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_leftside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_19_leftside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_19_leftside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_19_leftside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_19_leftside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_leftside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_19_leftside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_19_leftside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_19_leftside" link2="box_41_frontside" reason="Never"/>
@@ -2407,10 +2190,6 @@
     <disable_collisions link1="box_19_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_19_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_19_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_19_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_19_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_19_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_19_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_19_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_19_leftside" link2="box_5_frontside" reason="Never"/>
@@ -2485,12 +2264,6 @@
     <disable_collisions link1="box_19_rightside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_19_rightside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_19_rightside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_rightside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_19_rightside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_19_rightside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_19_rightside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_19_rightside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_rightside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_19_rightside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_19_rightside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_19_rightside" link2="box_41_frontside" reason="Never"/>
@@ -2511,10 +2284,6 @@
     <disable_collisions link1="box_19_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_19_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_19_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_19_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_19_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_19_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_19_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_19_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_19_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_19_rightside" link2="box_5_frontside" reason="Never"/>
@@ -2588,12 +2357,6 @@
     <disable_collisions link1="box_1_backside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_1_backside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_1_backside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_backside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_1_backside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_1_backside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_1_backside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_1_backside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_backside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_1_backside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_1_backside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_1_backside" link2="box_41_frontside" reason="Never"/>
@@ -2614,10 +2377,6 @@
     <disable_collisions link1="box_1_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_1_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_1_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_1_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_1_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_1_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_1_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_1_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_1_backside" link2="box_5_frontside" reason="Never"/>
@@ -2690,12 +2449,6 @@
     <disable_collisions link1="box_1_frontside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_1_frontside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_1_frontside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_frontside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_1_frontside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_1_frontside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_1_frontside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_1_frontside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_frontside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_1_frontside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_1_frontside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_1_frontside" link2="box_41_frontside" reason="Never"/>
@@ -2716,10 +2469,6 @@
     <disable_collisions link1="box_1_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_1_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_1_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_1_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_1_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_1_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_1_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_1_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_1_frontside" link2="box_5_frontside" reason="Never"/>
@@ -2791,12 +2540,6 @@
     <disable_collisions link1="box_1_leftside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_1_leftside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_1_leftside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_leftside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_1_leftside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_1_leftside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_1_leftside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_1_leftside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_leftside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_1_leftside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_1_leftside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_1_leftside" link2="box_41_frontside" reason="Never"/>
@@ -2817,10 +2560,6 @@
     <disable_collisions link1="box_1_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_1_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_1_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_1_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_1_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_1_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_1_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_1_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_1_leftside" link2="box_5_frontside" reason="Never"/>
@@ -2891,12 +2630,6 @@
     <disable_collisions link1="box_1_rightside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_1_rightside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_1_rightside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_rightside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_1_rightside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_1_rightside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_1_rightside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_1_rightside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_rightside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_1_rightside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_1_rightside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_1_rightside" link2="box_41_frontside" reason="Never"/>
@@ -2917,10 +2650,6 @@
     <disable_collisions link1="box_1_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_1_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_1_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_1_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_1_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_1_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_1_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_1_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_1_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_1_rightside" link2="box_5_frontside" reason="Never"/>
@@ -2990,12 +2719,6 @@
     <disable_collisions link1="box_2" link2="box_2_frontside" reason="Adjacent"/>
     <disable_collisions link1="box_2" link2="box_2_leftside" reason="Adjacent"/>
     <disable_collisions link1="box_2" link2="box_2_rightside" reason="Adjacent"/>
-    <disable_collisions link1="box_2" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_2" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_2" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_2" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_2" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_2" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_2" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_2" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_2" link2="box_41_frontside" reason="Never"/>
@@ -3016,10 +2739,6 @@
     <disable_collisions link1="box_2" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_2" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_2" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_2" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_2" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_2" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_2" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_2" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_2" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_2" link2="box_5_frontside" reason="Never"/>
@@ -3088,12 +2807,6 @@
     <disable_collisions link1="box_20" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_20" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_20" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_20" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_20" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_20" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_20" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_20" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_20" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_20" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_20" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_20" link2="box_41_frontside" reason="Never"/>
@@ -3114,10 +2827,6 @@
     <disable_collisions link1="box_20" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_20" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_20" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_20" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_20" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_20" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_20" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_20" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_20" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_20" link2="box_5_frontside" reason="Never"/>
@@ -3185,12 +2894,6 @@
     <disable_collisions link1="box_20_backside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_20_backside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_20_backside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_backside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_20_backside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_20_backside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_20_backside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_20_backside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_backside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_20_backside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_20_backside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_20_backside" link2="box_41_frontside" reason="Never"/>
@@ -3211,10 +2914,6 @@
     <disable_collisions link1="box_20_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_20_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_20_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_20_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_20_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_20_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_20_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_20_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_20_backside" link2="box_5_frontside" reason="Never"/>
@@ -3281,12 +2980,6 @@
     <disable_collisions link1="box_20_frontside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_20_frontside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_20_frontside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_frontside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_20_frontside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_20_frontside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_20_frontside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_20_frontside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_frontside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_20_frontside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_20_frontside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_20_frontside" link2="box_41_frontside" reason="Never"/>
@@ -3307,10 +3000,6 @@
     <disable_collisions link1="box_20_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_20_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_20_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_20_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_20_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_20_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_20_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_20_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_20_frontside" link2="box_5_frontside" reason="Never"/>
@@ -3376,12 +3065,6 @@
     <disable_collisions link1="box_20_leftside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_20_leftside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_20_leftside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_leftside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_20_leftside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_20_leftside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_20_leftside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_20_leftside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_leftside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_20_leftside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_20_leftside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_20_leftside" link2="box_41_frontside" reason="Never"/>
@@ -3402,10 +3085,6 @@
     <disable_collisions link1="box_20_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_20_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_20_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_20_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_20_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_20_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_20_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_20_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_20_leftside" link2="box_5_frontside" reason="Never"/>
@@ -3470,12 +3149,6 @@
     <disable_collisions link1="box_20_rightside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_20_rightside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_20_rightside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_rightside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_20_rightside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_20_rightside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_20_rightside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_20_rightside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_rightside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_20_rightside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_20_rightside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_20_rightside" link2="box_41_frontside" reason="Never"/>
@@ -3496,10 +3169,6 @@
     <disable_collisions link1="box_20_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_20_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_20_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_20_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_20_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_20_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_20_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_20_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_20_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_20_rightside" link2="box_5_frontside" reason="Never"/>
@@ -3563,12 +3232,6 @@
     <disable_collisions link1="box_21" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_21" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_21" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_21" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_21" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_21" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_21" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_21" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_21" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_21" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_21" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_21" link2="box_41_frontside" reason="Never"/>
@@ -3589,10 +3252,6 @@
     <disable_collisions link1="box_21" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_21" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_21" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_21" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_21" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_21" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_21" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_21" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_21" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_21" link2="box_5_frontside" reason="Never"/>
@@ -3655,12 +3314,6 @@
     <disable_collisions link1="box_21_backside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_21_backside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_21_backside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_backside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_21_backside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_21_backside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_21_backside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_21_backside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_backside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_21_backside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_21_backside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_21_backside" link2="box_41_frontside" reason="Never"/>
@@ -3681,10 +3334,6 @@
     <disable_collisions link1="box_21_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_21_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_21_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_21_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_21_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_21_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_21_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_21_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_21_backside" link2="box_5_frontside" reason="Never"/>
@@ -3746,12 +3395,6 @@
     <disable_collisions link1="box_21_frontside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_21_frontside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_21_frontside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_frontside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_21_frontside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_21_frontside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_21_frontside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_21_frontside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_frontside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_21_frontside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_21_frontside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_21_frontside" link2="box_41_frontside" reason="Never"/>
@@ -3772,10 +3415,6 @@
     <disable_collisions link1="box_21_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_21_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_21_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_21_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_21_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_21_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_21_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_21_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_21_frontside" link2="box_5_frontside" reason="Never"/>
@@ -3836,12 +3475,6 @@
     <disable_collisions link1="box_21_leftside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_21_leftside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_21_leftside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_leftside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_21_leftside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_21_leftside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_21_leftside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_21_leftside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_leftside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_21_leftside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_21_leftside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_21_leftside" link2="box_41_frontside" reason="Never"/>
@@ -3862,10 +3495,6 @@
     <disable_collisions link1="box_21_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_21_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_21_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_21_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_21_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_21_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_21_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_21_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_21_leftside" link2="box_5_frontside" reason="Never"/>
@@ -3925,12 +3554,6 @@
     <disable_collisions link1="box_21_rightside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_21_rightside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_21_rightside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_rightside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_21_rightside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_21_rightside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_21_rightside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_21_rightside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_rightside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_21_rightside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_21_rightside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_21_rightside" link2="box_41_frontside" reason="Never"/>
@@ -3951,10 +3574,6 @@
     <disable_collisions link1="box_21_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_21_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_21_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_21_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_21_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_21_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_21_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_21_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_21_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_21_rightside" link2="box_5_frontside" reason="Never"/>
@@ -4013,12 +3632,6 @@
     <disable_collisions link1="box_22" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_22" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_22" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_22" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_22" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_22" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_22" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_22" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_22" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_22" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_22" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_22" link2="box_41_frontside" reason="Never"/>
@@ -4039,10 +3652,6 @@
     <disable_collisions link1="box_22" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_22" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_22" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_22" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_22" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_22" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_22" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_22" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_22" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_22" link2="box_5_frontside" reason="Never"/>
@@ -4100,12 +3709,6 @@
     <disable_collisions link1="box_22_backside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_22_backside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_22_backside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_backside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_22_backside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_22_backside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_22_backside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_22_backside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_backside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_22_backside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_22_backside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_22_backside" link2="box_41_frontside" reason="Never"/>
@@ -4126,10 +3729,6 @@
     <disable_collisions link1="box_22_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_22_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_22_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_22_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_22_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_22_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_22_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_22_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_22_backside" link2="box_5_frontside" reason="Never"/>
@@ -4186,12 +3785,6 @@
     <disable_collisions link1="box_22_frontside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_22_frontside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_22_frontside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_frontside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_22_frontside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_22_frontside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_22_frontside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_22_frontside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_frontside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_22_frontside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_22_frontside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_22_frontside" link2="box_41_frontside" reason="Never"/>
@@ -4212,10 +3805,6 @@
     <disable_collisions link1="box_22_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_22_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_22_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_22_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_22_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_22_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_22_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_22_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_22_frontside" link2="box_5_frontside" reason="Never"/>
@@ -4271,12 +3860,6 @@
     <disable_collisions link1="box_22_leftside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_22_leftside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_22_leftside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_leftside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_22_leftside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_22_leftside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_22_leftside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_22_leftside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_leftside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_22_leftside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_22_leftside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_22_leftside" link2="box_41_frontside" reason="Never"/>
@@ -4297,10 +3880,6 @@
     <disable_collisions link1="box_22_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_22_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_22_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_22_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_22_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_22_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_22_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_22_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_22_leftside" link2="box_5_frontside" reason="Never"/>
@@ -4355,12 +3934,6 @@
     <disable_collisions link1="box_22_rightside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_22_rightside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_22_rightside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_rightside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_22_rightside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_22_rightside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_22_rightside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_22_rightside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_rightside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_22_rightside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_22_rightside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_22_rightside" link2="box_41_frontside" reason="Never"/>
@@ -4381,10 +3954,6 @@
     <disable_collisions link1="box_22_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_22_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_22_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_22_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_22_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_22_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_22_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_22_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_22_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_22_rightside" link2="box_5_frontside" reason="Never"/>
@@ -4438,12 +4007,6 @@
     <disable_collisions link1="box_23" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_23" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_23" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_23" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_23" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_23" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_23" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_23" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_23" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_23" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_23" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_23" link2="box_41_frontside" reason="Never"/>
@@ -4464,10 +4027,6 @@
     <disable_collisions link1="box_23" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_23" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_23" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_23" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_23" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_23" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_23" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_23" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_23" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_23" link2="box_5_frontside" reason="Never"/>
@@ -4520,12 +4079,6 @@
     <disable_collisions link1="box_23_backside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_23_backside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_23_backside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_backside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_23_backside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_23_backside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_23_backside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_23_backside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_backside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_23_backside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_23_backside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_23_backside" link2="box_41_frontside" reason="Never"/>
@@ -4546,10 +4099,6 @@
     <disable_collisions link1="box_23_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_23_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_23_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_23_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_23_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_23_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_23_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_23_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_23_backside" link2="box_5_frontside" reason="Never"/>
@@ -4601,12 +4150,6 @@
     <disable_collisions link1="box_23_frontside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_23_frontside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_23_frontside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_frontside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_23_frontside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_23_frontside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_23_frontside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_23_frontside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_frontside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_23_frontside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_23_frontside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_23_frontside" link2="box_41_frontside" reason="Never"/>
@@ -4627,10 +4170,6 @@
     <disable_collisions link1="box_23_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_23_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_23_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_23_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_23_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_23_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_23_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_23_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_23_frontside" link2="box_5_frontside" reason="Never"/>
@@ -4681,12 +4220,6 @@
     <disable_collisions link1="box_23_leftside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_23_leftside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_23_leftside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_leftside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_23_leftside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_23_leftside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_23_leftside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_23_leftside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_leftside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_23_leftside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_23_leftside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_23_leftside" link2="box_41_frontside" reason="Never"/>
@@ -4707,10 +4240,6 @@
     <disable_collisions link1="box_23_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_23_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_23_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_23_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_23_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_23_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_23_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_23_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_23_leftside" link2="box_5_frontside" reason="Never"/>
@@ -4760,12 +4289,6 @@
     <disable_collisions link1="box_23_rightside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_23_rightside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_23_rightside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_rightside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_23_rightside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_23_rightside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_23_rightside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_23_rightside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_rightside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_23_rightside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_23_rightside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_23_rightside" link2="box_41_frontside" reason="Never"/>
@@ -4786,10 +4309,6 @@
     <disable_collisions link1="box_23_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_23_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_23_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_23_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_23_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_23_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_23_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_23_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_23_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_23_rightside" link2="box_5_frontside" reason="Never"/>
@@ -4838,12 +4357,6 @@
     <disable_collisions link1="box_26" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_26" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_26" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_26" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_26" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_26" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_26" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_26" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_26" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_26" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_26" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_26" link2="box_41_frontside" reason="Never"/>
@@ -4864,10 +4377,6 @@
     <disable_collisions link1="box_26" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_26" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_26" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_26" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_26" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_26" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_26" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_26" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_26" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_26" link2="box_5_frontside" reason="Never"/>
@@ -4915,12 +4424,6 @@
     <disable_collisions link1="box_26_backside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_26_backside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_26_backside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_backside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_26_backside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_26_backside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_26_backside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_26_backside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_backside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_26_backside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_26_backside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_26_backside" link2="box_41_frontside" reason="Never"/>
@@ -4941,10 +4444,6 @@
     <disable_collisions link1="box_26_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_26_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_26_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_26_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_26_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_26_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_26_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_26_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_26_backside" link2="box_5_frontside" reason="Never"/>
@@ -4991,12 +4490,6 @@
     <disable_collisions link1="box_26_frontside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_26_frontside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_26_frontside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_frontside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_26_frontside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_26_frontside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_26_frontside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_26_frontside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_frontside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_26_frontside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_26_frontside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_26_frontside" link2="box_41_frontside" reason="Never"/>
@@ -5017,10 +4510,6 @@
     <disable_collisions link1="box_26_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_26_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_26_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_26_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_26_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_26_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_26_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_26_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_26_frontside" link2="box_5_frontside" reason="Never"/>
@@ -5066,12 +4555,6 @@
     <disable_collisions link1="box_26_leftside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_26_leftside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_26_leftside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_leftside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_26_leftside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_26_leftside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_26_leftside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_26_leftside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_leftside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_26_leftside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_26_leftside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_26_leftside" link2="box_41_frontside" reason="Never"/>
@@ -5092,10 +4575,6 @@
     <disable_collisions link1="box_26_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_26_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_26_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_26_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_26_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_26_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_26_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_26_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_26_leftside" link2="box_5_frontside" reason="Never"/>
@@ -5140,12 +4619,6 @@
     <disable_collisions link1="box_26_rightside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_26_rightside" link2="box_2_leftside" reason="Never"/>
     <disable_collisions link1="box_26_rightside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_rightside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_26_rightside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_26_rightside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_26_rightside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_26_rightside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_rightside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_26_rightside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_26_rightside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_26_rightside" link2="box_41_frontside" reason="Never"/>
@@ -5166,10 +4639,6 @@
     <disable_collisions link1="box_26_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_26_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_26_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_26_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_26_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_26_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_26_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_26_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_26_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_26_rightside" link2="box_5_frontside" reason="Never"/>
@@ -5213,12 +4682,6 @@
     <disable_collisions link1="box_2_backside" link2="box_2_frontside" reason="Never"/>
     <disable_collisions link1="box_2_backside" link2="box_2_leftside" reason="Default"/>
     <disable_collisions link1="box_2_backside" link2="box_2_rightside" reason="Default"/>
-    <disable_collisions link1="box_2_backside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_2_backside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_2_backside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_2_backside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_2_backside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_2_backside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_2_backside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_2_backside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_2_backside" link2="box_41_frontside" reason="Never"/>
@@ -5239,10 +4702,6 @@
     <disable_collisions link1="box_2_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_2_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_2_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_2_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_2_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_2_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_2_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_2_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_2_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_2_backside" link2="box_5_frontside" reason="Never"/>
@@ -5285,12 +4744,6 @@
     <disable_collisions link1="box_2_backside" link2="rack_t5" reason="Never"/>
     <disable_collisions link1="box_2_frontside" link2="box_2_leftside" reason="Default"/>
     <disable_collisions link1="box_2_frontside" link2="box_2_rightside" reason="Default"/>
-    <disable_collisions link1="box_2_frontside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_2_frontside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_2_frontside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_2_frontside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_2_frontside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_2_frontside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_2_frontside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_2_frontside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_2_frontside" link2="box_41_frontside" reason="Never"/>
@@ -5311,10 +4764,6 @@
     <disable_collisions link1="box_2_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_2_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_2_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_2_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_2_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_2_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_2_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_2_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_2_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_2_frontside" link2="box_5_frontside" reason="Never"/>
@@ -5356,12 +4805,6 @@
     <disable_collisions link1="box_2_frontside" link2="rack_t4" reason="Never"/>
     <disable_collisions link1="box_2_frontside" link2="rack_t5" reason="Never"/>
     <disable_collisions link1="box_2_leftside" link2="box_2_rightside" reason="Never"/>
-    <disable_collisions link1="box_2_leftside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_2_leftside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_2_leftside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_2_leftside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_2_leftside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_2_leftside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_2_leftside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_2_leftside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_2_leftside" link2="box_41_frontside" reason="Never"/>
@@ -5382,10 +4825,6 @@
     <disable_collisions link1="box_2_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_2_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_2_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_2_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_2_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_2_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_2_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_2_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_2_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_2_leftside" link2="box_5_frontside" reason="Never"/>
@@ -5426,12 +4865,6 @@
     <disable_collisions link1="box_2_leftside" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_2_leftside" link2="rack_t4" reason="Never"/>
     <disable_collisions link1="box_2_leftside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_2_rightside" link2="box_3" reason="Never"/>
-    <disable_collisions link1="box_2_rightside" link2="box_3_backside" reason="Never"/>
-    <disable_collisions link1="box_2_rightside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_2_rightside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_2_rightside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_2_rightside" link2="box_4" reason="Never"/>
     <disable_collisions link1="box_2_rightside" link2="box_41" reason="Never"/>
     <disable_collisions link1="box_2_rightside" link2="box_41_backside" reason="Never"/>
     <disable_collisions link1="box_2_rightside" link2="box_41_frontside" reason="Never"/>
@@ -5452,10 +4885,6 @@
     <disable_collisions link1="box_2_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_2_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_2_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_2_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_2_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_2_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_2_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_2_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_2_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_2_rightside" link2="box_5_frontside" reason="Never"/>
@@ -5496,405 +4925,6 @@
     <disable_collisions link1="box_2_rightside" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_2_rightside" link2="rack_t4" reason="Never"/>
     <disable_collisions link1="box_2_rightside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_3_backside" reason="Adjacent"/>
-    <disable_collisions link1="box_3" link2="box_3_frontside" reason="Adjacent"/>
-    <disable_collisions link1="box_3" link2="box_3_leftside" reason="Adjacent"/>
-    <disable_collisions link1="box_3" link2="box_3_rightside" reason="Adjacent"/>
-    <disable_collisions link1="box_3" link2="box_4" reason="Adjacent"/>
-    <disable_collisions link1="box_3" link2="box_41" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_41_backside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_41_frontside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_41_leftside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_41_rightside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_42" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_42_backside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_42_frontside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_42_leftside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_42_rightside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_43" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_43_backside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_43_frontside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_43_leftside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_43_rightside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_44" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_44_backside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_44_frontside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_44_leftside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_4_rightside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_5" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_5_backside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_5_frontside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_5_leftside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_5_rightside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_8" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_8_backside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_8_frontside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_8_leftside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_8_rightside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_9" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_9_backside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_9_frontside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_9_leftside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="box_9_rightside" reason="Never"/>
-    <disable_collisions link1="box_3" link2="demo_floor_link" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_coupling_base_link" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_left_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_left_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_left_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_left_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_left_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_right_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_right_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_right_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_right_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_right_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3" link2="gripper_robotiq_arg2f_base_link" reason="Never"/>
-    <disable_collisions link1="box_3" link2="rack_b0" reason="Never"/>
-    <disable_collisions link1="box_3" link2="rack_b1" reason="Never"/>
-    <disable_collisions link1="box_3" link2="rack_b2" reason="Never"/>
-    <disable_collisions link1="box_3" link2="rack_b3" reason="Never"/>
-    <disable_collisions link1="box_3" link2="rack_b4" reason="Never"/>
-    <disable_collisions link1="box_3" link2="rack_b5" reason="Never"/>
-    <disable_collisions link1="box_3" link2="rack_t0" reason="Never"/>
-    <disable_collisions link1="box_3" link2="rack_t1" reason="Adjacent"/>
-    <disable_collisions link1="box_3" link2="rack_t2" reason="Never"/>
-    <disable_collisions link1="box_3" link2="rack_t3" reason="Never"/>
-    <disable_collisions link1="box_3" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_3" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_3_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_3_leftside" reason="Default"/>
-    <disable_collisions link1="box_3_backside" link2="box_3_rightside" reason="Default"/>
-    <disable_collisions link1="box_3_backside" link2="box_4" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_41" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_41_backside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_41_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_41_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_41_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_42" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_42_backside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_42_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_42_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_42_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_43" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_43_backside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_43_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_43_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_43_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_44" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_44_backside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_44_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_44_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_4_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_5" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_5_backside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_5_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_5_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_5_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_8" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_8_backside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_8_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_8_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_8_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_9" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_9_backside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_9_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_9_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="box_9_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="demo_floor_link" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_coupling_base_link" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_left_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_left_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_left_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_left_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_left_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_right_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_right_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_right_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_right_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_right_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="gripper_robotiq_arg2f_base_link" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_b0" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_b1" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_b2" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_b3" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_b4" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_b5" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_t0" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_t1" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_t2" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_t3" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_3_backside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_3_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_4" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_41" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_41_backside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_41_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_41_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_41_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_42" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_42_backside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_42_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_42_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_42_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_43" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_43_backside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_43_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_43_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_43_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_44" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_44_backside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_44_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_44_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_4_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_5" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_5_backside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_5_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_5_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_5_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_8" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_8_backside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_8_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_8_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_8_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_9" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_9_backside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_9_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_9_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="box_9_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="demo_floor_link" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_coupling_base_link" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_left_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_left_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_left_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_left_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_left_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_right_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_right_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_right_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_right_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_right_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="gripper_robotiq_arg2f_base_link" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_b0" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_b1" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_b2" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_b3" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_b4" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_b5" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_t0" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_t1" reason="Default"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_t2" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_t3" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_3_frontside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_3_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_4" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_41" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_41_backside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_41_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_41_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_41_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_42" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_42_backside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_42_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_42_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_42_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_43" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_43_backside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_43_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_43_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_43_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_44" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_44_backside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_44_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_44_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_4_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_5" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_5_backside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_5_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_5_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_5_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_8" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_8_backside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_8_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_8_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_8_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_9" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_9_backside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_9_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_9_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="box_9_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="demo_floor_link" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_coupling_base_link" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_left_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_left_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_left_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_left_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_left_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_right_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_right_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_right_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_right_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_right_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="gripper_robotiq_arg2f_base_link" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_b0" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_b1" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_b2" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_b3" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_b4" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_b5" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_t0" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_t1" reason="Default"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_t2" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_t3" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_3_leftside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_4" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_41" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_41_backside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_41_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_41_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_41_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_42" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_42_backside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_42_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_42_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_42_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_43" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_43_backside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_43_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_43_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_43_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_44" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_44_backside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_44_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_44_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_4_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_5" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_5_backside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_5_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_5_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_5_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_8" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_8_backside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_8_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_8_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_8_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_9" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_9_backside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_9_frontside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_9_leftside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="box_9_rightside" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="demo_floor_link" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_coupling_base_link" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_left_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_left_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_left_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_left_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_left_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_right_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_right_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_right_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_right_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_right_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="gripper_robotiq_arg2f_base_link" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_b0" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_b1" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_b2" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_b3" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_b4" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_b5" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_t0" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_t1" reason="Default"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_t2" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_t3" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_3_rightside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_41" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_41_backside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_41_frontside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_41_leftside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_41_rightside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_42" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_42_backside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_42_frontside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_42_leftside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_42_rightside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_43" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_43_backside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_43_frontside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_43_leftside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_43_rightside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_44" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_44_backside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_44_frontside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_44_leftside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_4_backside" reason="Adjacent"/>
-    <disable_collisions link1="box_4" link2="box_4_frontside" reason="Adjacent"/>
-    <disable_collisions link1="box_4" link2="box_4_leftside" reason="Adjacent"/>
-    <disable_collisions link1="box_4" link2="box_4_rightside" reason="Adjacent"/>
-    <disable_collisions link1="box_4" link2="box_5" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_5_backside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_5_frontside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_5_leftside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_5_rightside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_8" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_8_backside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_8_frontside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_8_leftside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_8_rightside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_9" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_9_backside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_9_frontside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_9_leftside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="box_9_rightside" reason="Never"/>
-    <disable_collisions link1="box_4" link2="demo_floor_link" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_coupling_base_link" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_left_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_left_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_left_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_left_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_left_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_right_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_right_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_right_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_right_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_right_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4" link2="gripper_robotiq_arg2f_base_link" reason="Never"/>
-    <disable_collisions link1="box_4" link2="rack_b0" reason="Never"/>
-    <disable_collisions link1="box_4" link2="rack_b1" reason="Never"/>
-    <disable_collisions link1="box_4" link2="rack_b2" reason="Never"/>
-    <disable_collisions link1="box_4" link2="rack_b3" reason="Never"/>
-    <disable_collisions link1="box_4" link2="rack_b4" reason="Never"/>
-    <disable_collisions link1="box_4" link2="rack_b5" reason="Never"/>
-    <disable_collisions link1="box_4" link2="rack_t0" reason="Never"/>
-    <disable_collisions link1="box_4" link2="rack_t1" reason="Adjacent"/>
-    <disable_collisions link1="box_4" link2="rack_t2" reason="Never"/>
-    <disable_collisions link1="box_4" link2="rack_t3" reason="Never"/>
-    <disable_collisions link1="box_4" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_4" link2="rack_t5" reason="Never"/>
     <disable_collisions link1="box_41" link2="box_41_backside" reason="Adjacent"/>
     <disable_collisions link1="box_41" link2="box_41_frontside" reason="Adjacent"/>
     <disable_collisions link1="box_41" link2="box_41_leftside" reason="Adjacent"/>
@@ -5914,10 +4944,6 @@
     <disable_collisions link1="box_41" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_41" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_41" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_41" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_41" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_41" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_41" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_41" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_41" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_41" link2="box_5_frontside" reason="Never"/>
@@ -5976,10 +5002,6 @@
     <disable_collisions link1="box_41_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_41_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_41_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_41_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_41_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_41_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_41_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_41_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_41_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_41_backside" link2="box_5_frontside" reason="Never"/>
@@ -6037,10 +5059,6 @@
     <disable_collisions link1="box_41_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_41_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_41_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_41_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_41_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_41_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_41_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_41_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_41_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_41_frontside" link2="box_5_frontside" reason="Never"/>
@@ -6097,10 +5115,6 @@
     <disable_collisions link1="box_41_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_41_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_41_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_41_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_41_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_41_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_41_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_41_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_41_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_41_leftside" link2="box_5_frontside" reason="Never"/>
@@ -6156,10 +5170,6 @@
     <disable_collisions link1="box_41_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_41_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_41_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_41_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_41_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_41_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_41_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_41_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_41_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_41_rightside" link2="box_5_frontside" reason="Never"/>
@@ -6214,10 +5224,6 @@
     <disable_collisions link1="box_42" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_42" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_42" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_42" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_42" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_42" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_42" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_42" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_42" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_42" link2="box_5_frontside" reason="Never"/>
@@ -6271,10 +5277,6 @@
     <disable_collisions link1="box_42_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_42_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_42_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_42_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_42_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_42_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_42_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_42_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_42_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_42_backside" link2="box_5_frontside" reason="Never"/>
@@ -6327,10 +5329,6 @@
     <disable_collisions link1="box_42_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_42_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_42_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_42_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_42_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_42_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_42_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_42_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_42_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_42_frontside" link2="box_5_frontside" reason="Never"/>
@@ -6382,10 +5380,6 @@
     <disable_collisions link1="box_42_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_42_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_42_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_42_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_42_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_42_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_42_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_42_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_42_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_42_leftside" link2="box_5_frontside" reason="Never"/>
@@ -6436,10 +5430,6 @@
     <disable_collisions link1="box_42_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_42_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_42_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_42_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_42_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_42_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_42_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_42_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_42_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_42_rightside" link2="box_5_frontside" reason="Never"/>
@@ -6489,10 +5479,6 @@
     <disable_collisions link1="box_43" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_43" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_43" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_43" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_43" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_43" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_43" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_43" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_43" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_43" link2="box_5_frontside" reason="Never"/>
@@ -6541,10 +5527,6 @@
     <disable_collisions link1="box_43_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_43_backside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_43_backside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_43_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_43_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_43_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_43_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_43_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_43_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_43_backside" link2="box_5_frontside" reason="Never"/>
@@ -6592,10 +5574,6 @@
     <disable_collisions link1="box_43_frontside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_43_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_43_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_43_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_43_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_43_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_43_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_43_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_43_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_43_frontside" link2="box_5_frontside" reason="Never"/>
@@ -6642,10 +5620,6 @@
     <disable_collisions link1="box_43_leftside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_43_leftside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_43_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_43_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_43_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_43_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_43_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_43_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_43_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_43_leftside" link2="box_5_frontside" reason="Never"/>
@@ -6691,10 +5665,6 @@
     <disable_collisions link1="box_43_rightside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_43_rightside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_43_rightside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_43_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_43_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_43_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_43_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_43_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_43_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_43_rightside" link2="box_5_frontside" reason="Never"/>
@@ -6739,10 +5709,6 @@
     <disable_collisions link1="box_44" link2="box_44_frontside" reason="Adjacent"/>
     <disable_collisions link1="box_44" link2="box_44_leftside" reason="Adjacent"/>
     <disable_collisions link1="box_44" link2="box_44_rightside" reason="Adjacent"/>
-    <disable_collisions link1="box_44" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_44" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_44" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_44" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_44" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_44" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_44" link2="box_5_frontside" reason="Never"/>
@@ -6786,10 +5752,6 @@
     <disable_collisions link1="box_44_backside" link2="box_44_frontside" reason="Never"/>
     <disable_collisions link1="box_44_backside" link2="box_44_leftside" reason="Default"/>
     <disable_collisions link1="box_44_backside" link2="box_44_rightside" reason="Default"/>
-    <disable_collisions link1="box_44_backside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_44_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_44_backside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_44_backside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_44_backside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_44_backside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_44_backside" link2="box_5_frontside" reason="Never"/>
@@ -6832,10 +5794,6 @@
     <disable_collisions link1="box_44_backside" link2="rack_t5" reason="Never"/>
     <disable_collisions link1="box_44_frontside" link2="box_44_leftside" reason="Never"/>
     <disable_collisions link1="box_44_frontside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_44_frontside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_44_frontside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_44_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_44_frontside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_44_frontside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_44_frontside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_44_frontside" link2="box_5_frontside" reason="Never"/>
@@ -6877,10 +5835,6 @@
     <disable_collisions link1="box_44_frontside" link2="rack_t4" reason="Never"/>
     <disable_collisions link1="box_44_frontside" link2="rack_t5" reason="Never"/>
     <disable_collisions link1="box_44_leftside" link2="box_44_rightside" reason="Never"/>
-    <disable_collisions link1="box_44_leftside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_44_leftside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_44_leftside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_44_leftside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_44_leftside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_44_leftside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_44_leftside" link2="box_5_frontside" reason="Never"/>
@@ -6921,10 +5875,6 @@
     <disable_collisions link1="box_44_leftside" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_44_leftside" link2="rack_t4" reason="Never"/>
     <disable_collisions link1="box_44_leftside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_44_rightside" link2="box_4_backside" reason="Never"/>
-    <disable_collisions link1="box_44_rightside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_44_rightside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_44_rightside" link2="box_4_rightside" reason="Never"/>
     <disable_collisions link1="box_44_rightside" link2="box_5" reason="Never"/>
     <disable_collisions link1="box_44_rightside" link2="box_5_backside" reason="Never"/>
     <disable_collisions link1="box_44_rightside" link2="box_5_frontside" reason="Never"/>
@@ -6965,172 +5915,6 @@
     <disable_collisions link1="box_44_rightside" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_44_rightside" link2="rack_t4" reason="Never"/>
     <disable_collisions link1="box_44_rightside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_4_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_4_leftside" reason="Default"/>
-    <disable_collisions link1="box_4_backside" link2="box_4_rightside" reason="Default"/>
-    <disable_collisions link1="box_4_backside" link2="box_5" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_5_backside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_5_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_5_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_5_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_8" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_8_backside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_8_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_8_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_8_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_9" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_9_backside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_9_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_9_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="box_9_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="demo_floor_link" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_coupling_base_link" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_left_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_left_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_left_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_left_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_left_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_right_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_right_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_right_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_right_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_right_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="gripper_robotiq_arg2f_base_link" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_b0" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_b1" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_b2" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_b3" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_b4" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_b5" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_t0" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_t1" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_t2" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_t3" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_4_backside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_4_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_4_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_5" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_5_backside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_5_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_5_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_5_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_8" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_8_backside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_8_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_8_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_8_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_9" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_9_backside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_9_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_9_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="box_9_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="demo_floor_link" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_coupling_base_link" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_left_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_left_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_left_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_left_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_left_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_right_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_right_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_right_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_right_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_right_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="gripper_robotiq_arg2f_base_link" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_b0" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_b1" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_b2" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_b3" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_b4" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_b5" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_t0" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_t1" reason="Default"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_t2" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_t3" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_4_frontside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_4_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_5" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_5_backside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_5_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_5_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_5_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_8" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_8_backside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_8_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_8_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_8_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_9" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_9_backside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_9_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_9_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="box_9_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="demo_floor_link" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_coupling_base_link" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_left_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_left_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_left_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_left_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_left_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_right_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_right_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_right_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_right_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_right_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="gripper_robotiq_arg2f_base_link" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_b0" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_b1" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_b2" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_b3" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_b4" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_b5" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_t0" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_t1" reason="Default"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_t2" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_t3" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_4_leftside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_5" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_5_backside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_5_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_5_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_5_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_8" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_8_backside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_8_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_8_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_8_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_9" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_9_backside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_9_frontside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_9_leftside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="box_9_rightside" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="demo_floor_link" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_coupling_base_link" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_left_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_left_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_left_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_left_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_left_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_right_inner_finger" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_right_inner_finger_pad" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_right_inner_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_right_outer_finger" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_right_outer_knuckle" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="gripper_robotiq_arg2f_base_link" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_b0" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_b1" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_b2" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_b3" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_b4" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_b5" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_t0" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_t1" reason="Default"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_t2" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_t3" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_4_rightside" link2="rack_t5" reason="Never"/>
     <disable_collisions link1="box_5" link2="box_5_backside" reason="Adjacent"/>
     <disable_collisions link1="box_5" link2="box_5_frontside" reason="Adjacent"/>
     <disable_collisions link1="box_5" link2="box_5_leftside" reason="Adjacent"/>
@@ -7166,10 +5950,10 @@
     <disable_collisions link1="box_5" link2="rack_b5" reason="Never"/>
     <disable_collisions link1="box_5" link2="rack_t0" reason="Never"/>
     <disable_collisions link1="box_5" link2="rack_t1" reason="Never"/>
-    <disable_collisions link1="box_5" link2="rack_t2" reason="Adjacent"/>
+    <disable_collisions link1="box_5" link2="rack_t2" reason="Never"/>
     <disable_collisions link1="box_5" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_5" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_5" link2="rack_t5" reason="Never"/>
+    <disable_collisions link1="box_5" link2="rack_t5" reason="Adjacent"/>
     <disable_collisions link1="box_5_backside" link2="box_5_frontside" reason="Never"/>
     <disable_collisions link1="box_5_backside" link2="box_5_leftside" reason="Default"/>
     <disable_collisions link1="box_5_backside" link2="box_5_rightside" reason="Default"/>
@@ -7241,10 +6025,10 @@
     <disable_collisions link1="box_5_frontside" link2="rack_b5" reason="Never"/>
     <disable_collisions link1="box_5_frontside" link2="rack_t0" reason="Never"/>
     <disable_collisions link1="box_5_frontside" link2="rack_t1" reason="Never"/>
-    <disable_collisions link1="box_5_frontside" link2="rack_t2" reason="Default"/>
+    <disable_collisions link1="box_5_frontside" link2="rack_t2" reason="Never"/>
     <disable_collisions link1="box_5_frontside" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_5_frontside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_5_frontside" link2="rack_t5" reason="Never"/>
+    <disable_collisions link1="box_5_frontside" link2="rack_t5" reason="Default"/>
     <disable_collisions link1="box_5_leftside" link2="box_5_rightside" reason="Never"/>
     <disable_collisions link1="box_5_leftside" link2="box_8" reason="Never"/>
     <disable_collisions link1="box_5_leftside" link2="box_8_backside" reason="Never"/>
@@ -7277,10 +6061,10 @@
     <disable_collisions link1="box_5_leftside" link2="rack_b5" reason="Never"/>
     <disable_collisions link1="box_5_leftside" link2="rack_t0" reason="Never"/>
     <disable_collisions link1="box_5_leftside" link2="rack_t1" reason="Never"/>
-    <disable_collisions link1="box_5_leftside" link2="rack_t2" reason="Default"/>
+    <disable_collisions link1="box_5_leftside" link2="rack_t2" reason="Never"/>
     <disable_collisions link1="box_5_leftside" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_5_leftside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_5_leftside" link2="rack_t5" reason="Never"/>
+    <disable_collisions link1="box_5_leftside" link2="rack_t5" reason="Default"/>
     <disable_collisions link1="box_5_rightside" link2="box_8" reason="Never"/>
     <disable_collisions link1="box_5_rightside" link2="box_8_backside" reason="Never"/>
     <disable_collisions link1="box_5_rightside" link2="box_8_frontside" reason="Never"/>
@@ -7312,10 +6096,10 @@
     <disable_collisions link1="box_5_rightside" link2="rack_b5" reason="Never"/>
     <disable_collisions link1="box_5_rightside" link2="rack_t0" reason="Never"/>
     <disable_collisions link1="box_5_rightside" link2="rack_t1" reason="Never"/>
-    <disable_collisions link1="box_5_rightside" link2="rack_t2" reason="Default"/>
+    <disable_collisions link1="box_5_rightside" link2="rack_t2" reason="Never"/>
     <disable_collisions link1="box_5_rightside" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_5_rightside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_5_rightside" link2="rack_t5" reason="Never"/>
+    <disable_collisions link1="box_5_rightside" link2="rack_t5" reason="Default"/>
     <disable_collisions link1="box_8" link2="box_8_backside" reason="Adjacent"/>
     <disable_collisions link1="box_8" link2="box_8_frontside" reason="Adjacent"/>
     <disable_collisions link1="box_8" link2="box_8_leftside" reason="Adjacent"/>
@@ -7501,10 +6285,10 @@
     <disable_collisions link1="box_9" link2="rack_b5" reason="Never"/>
     <disable_collisions link1="box_9" link2="rack_t0" reason="Never"/>
     <disable_collisions link1="box_9" link2="rack_t1" reason="Never"/>
-    <disable_collisions link1="box_9" link2="rack_t2" reason="Adjacent"/>
+    <disable_collisions link1="box_9" link2="rack_t2" reason="Never"/>
     <disable_collisions link1="box_9" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_9" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_9" link2="rack_t5" reason="Never"/>
+    <disable_collisions link1="box_9" link2="rack_t5" reason="Adjacent"/>
     <disable_collisions link1="box_9_backside" link2="box_9_frontside" reason="Never"/>
     <disable_collisions link1="box_9_backside" link2="box_9_leftside" reason="Default"/>
     <disable_collisions link1="box_9_backside" link2="box_9_rightside" reason="Default"/>
@@ -7533,8 +6317,8 @@
     <disable_collisions link1="box_9_backside" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_9_backside" link2="rack_t4" reason="Never"/>
     <disable_collisions link1="box_9_backside" link2="rack_t5" reason="Never"/>
-    <disable_collisions link1="box_9_frontside" link2="box_9_leftside" reason="Default"/>
-    <disable_collisions link1="box_9_frontside" link2="box_9_rightside" reason="Default"/>
+    <disable_collisions link1="box_9_frontside" link2="box_9_leftside" reason="Never"/>
+    <disable_collisions link1="box_9_frontside" link2="box_9_rightside" reason="Never"/>
     <disable_collisions link1="box_9_frontside" link2="demo_floor_link" reason="Never"/>
     <disable_collisions link1="box_9_frontside" link2="gripper_coupling_base_link" reason="Never"/>
     <disable_collisions link1="box_9_frontside" link2="gripper_left_inner_finger" reason="Never"/>
@@ -7556,10 +6340,10 @@
     <disable_collisions link1="box_9_frontside" link2="rack_b5" reason="Never"/>
     <disable_collisions link1="box_9_frontside" link2="rack_t0" reason="Never"/>
     <disable_collisions link1="box_9_frontside" link2="rack_t1" reason="Never"/>
-    <disable_collisions link1="box_9_frontside" link2="rack_t2" reason="Default"/>
+    <disable_collisions link1="box_9_frontside" link2="rack_t2" reason="Never"/>
     <disable_collisions link1="box_9_frontside" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_9_frontside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_9_frontside" link2="rack_t5" reason="Never"/>
+    <disable_collisions link1="box_9_frontside" link2="rack_t5" reason="Default"/>
     <disable_collisions link1="box_9_leftside" link2="box_9_rightside" reason="Never"/>
     <disable_collisions link1="box_9_leftside" link2="demo_floor_link" reason="Never"/>
     <disable_collisions link1="box_9_leftside" link2="gripper_coupling_base_link" reason="Never"/>
@@ -7582,10 +6366,10 @@
     <disable_collisions link1="box_9_leftside" link2="rack_b5" reason="Never"/>
     <disable_collisions link1="box_9_leftside" link2="rack_t0" reason="Never"/>
     <disable_collisions link1="box_9_leftside" link2="rack_t1" reason="Never"/>
-    <disable_collisions link1="box_9_leftside" link2="rack_t2" reason="Default"/>
+    <disable_collisions link1="box_9_leftside" link2="rack_t2" reason="Never"/>
     <disable_collisions link1="box_9_leftside" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_9_leftside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_9_leftside" link2="rack_t5" reason="Never"/>
+    <disable_collisions link1="box_9_leftside" link2="rack_t5" reason="Default"/>
     <disable_collisions link1="box_9_rightside" link2="demo_floor_link" reason="Never"/>
     <disable_collisions link1="box_9_rightside" link2="gripper_coupling_base_link" reason="Never"/>
     <disable_collisions link1="box_9_rightside" link2="gripper_left_inner_finger" reason="Never"/>
@@ -7607,10 +6391,10 @@
     <disable_collisions link1="box_9_rightside" link2="rack_b5" reason="Never"/>
     <disable_collisions link1="box_9_rightside" link2="rack_t0" reason="Never"/>
     <disable_collisions link1="box_9_rightside" link2="rack_t1" reason="Never"/>
-    <disable_collisions link1="box_9_rightside" link2="rack_t2" reason="Default"/>
+    <disable_collisions link1="box_9_rightside" link2="rack_t2" reason="Never"/>
     <disable_collisions link1="box_9_rightside" link2="rack_t3" reason="Never"/>
     <disable_collisions link1="box_9_rightside" link2="rack_t4" reason="Never"/>
-    <disable_collisions link1="box_9_rightside" link2="rack_t5" reason="Never"/>
+    <disable_collisions link1="box_9_rightside" link2="rack_t5" reason="Default"/>
     <disable_collisions link1="demo_floor_link" link2="rack_b0" reason="Adjacent"/>
     <disable_collisions link1="demo_floor_link" link2="rack_b1" reason="Default"/>
     <disable_collisions link1="demo_floor_link" link2="rack_b2" reason="Default"/>

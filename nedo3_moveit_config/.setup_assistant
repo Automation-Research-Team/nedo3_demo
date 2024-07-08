@@ -2,7 +2,7 @@ moveit_setup_assistant_config:
   URDF:
     package: nedo3_description
     relative_path: urdf/nedo3_demo.urdf.xacro
-    xacro_args: ""
+    xacro_args: "kinematics_config:=$(find nedo3_bringup)/config/arm_calibration.yaml"
   SRDF:
     relative_path: config/nedo3_demo.srdf
   CONFIG:

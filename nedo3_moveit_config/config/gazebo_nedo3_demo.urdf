@@ -545,6 +545,420 @@
         <material>Gazebo/White</material>
         <selfCollide>True</selfCollide>
     </gazebo>
+    <link name="box_5">
+        <!-- w is in x, l is in y, h is in z -->
+        <visual>
+            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
+            <geometry>
+                <box size="0.335 0.335 0.013" />
+            </geometry>
+            <material name="orange">
+                <color rgba="1 0.5088 0.0468 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
+            <geometry>
+                <box size="0.335 0.335 0.013" />
+            </geometry>
+        </collision>
+        <!-- This is required for Gazebo. -->
+        <inertial>
+            <mass value="1.0" />
+            <origin rpy="0 0 0" xyz="0.1675 0.335 0.0065" />
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+        </inertial>
+    </link>
+    <gazebo reference="box_5">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+    <joint name="box_5" type="fixed">
+        <parent link="rack_t5_lower" />
+        <child link="box_5" />
+        <axis xyz="0 0 1" />
+        <origin rpy="0 0 0" xyz="0.08499999999999996 0 0" />
+    </joint>
+    <link name="box_5_frontside">
+        <!-- w is in x, l is in y, h is in z -->
+        <visual>
+            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
+            <geometry>
+                <box size="0.335 0.017 0.09" />
+            </geometry>
+            <material name="orange">
+                <color rgba="1 0.5088 0.0468 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
+            <geometry>
+                <box size="0.335 0.017 0.09" />
+            </geometry>
+        </collision>
+        <!-- This is required for Gazebo. -->
+        <inertial>
+            <mass value="1.0" />
+            <origin rpy="0 0 0" xyz="0.1675 0.017 0.045" />
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+        </inertial>
+    </link>
+    <gazebo reference="box_5_frontside">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+    <joint name="box_5_frontside" type="fixed">
+        <parent link="box_5" />
+        <child link="box_5_frontside" />
+        <axis xyz="0 0 1" />
+        <origin rpy="0 0 0" xyz="0 0 0.013" />
+    </joint>
+    <link name="box_5_backside">
+        <!-- w is in x, l is in y, h is in z -->
+        <visual>
+            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
+            <geometry>
+                <box size="0.335 0.017 0.09" />
+            </geometry>
+            <material name="orange">
+                <color rgba="1 0.5088 0.0468 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
+            <geometry>
+                <box size="0.335 0.017 0.09" />
+            </geometry>
+        </collision>
+        <!-- This is required for Gazebo. -->
+        <inertial>
+            <mass value="1.0" />
+            <origin rpy="0 0 0" xyz="0.1675 0.017 0.045" />
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+        </inertial>
+    </link>
+    <gazebo reference="box_5_backside">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+    <joint name="box_5_backside" type="fixed">
+        <parent link="box_5" />
+        <child link="box_5_backside" />
+        <axis xyz="0 0 1" />
+        <origin rpy="0 0 0" xyz="0 0.318 0.013" />
+    </joint>
+    <link name="box_5_leftside">
+        <!-- w is in x, l is in y, h is in z -->
+        <visual>
+            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
+            <geometry>
+                <box size="0.017 0.30100000000000005 0.09" />
+            </geometry>
+            <material name="orange">
+                <color rgba="1 0.5088 0.0468 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
+            <geometry>
+                <box size="0.017 0.30100000000000005 0.09" />
+            </geometry>
+        </collision>
+        <!-- This is required for Gazebo. -->
+        <inertial>
+            <mass value="1.0" />
+            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.045" />
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+        </inertial>
+    </link>
+    <gazebo reference="box_5_leftside">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+    <joint name="box_5_leftside" type="fixed">
+        <parent link="box_5" />
+        <child link="box_5_leftside" />
+        <axis xyz="0 0 1" />
+        <origin rpy="0 0 0" xyz="0 0.017  0.013" />
+    </joint>
+    <link name="box_5_rightside">
+        <!-- w is in x, l is in y, h is in z -->
+        <visual>
+            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
+            <geometry>
+                <box size="0.017 0.30100000000000005 0.09" />
+            </geometry>
+            <material name="orange">
+                <color rgba="1 0.5088 0.0468 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
+            <geometry>
+                <box size="0.017 0.30100000000000005 0.09" />
+            </geometry>
+        </collision>
+        <!-- This is required for Gazebo. -->
+        <inertial>
+            <mass value="1.0" />
+            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.045" />
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+        </inertial>
+    </link>
+    <gazebo reference="box_5_rightside">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+    <joint name="box_5_rightside" type="fixed">
+        <parent link="box_5" />
+        <child link="box_5_rightside" />
+        <axis xyz="0 0 1" />
+        <origin rpy="0 0 0" xyz="0.318      0.017      0.013" />
+    </joint>
+    <link name="box_5_bottom" />
+    <joint name="box_5_bottom_joint" type="fixed">
+        <parent link="box_5" />
+        <child link="box_5_bottom" />
+        <origin rpy="0 0 0" xyz="0.017 0.017 0.013" />
+    </joint>
+    <link name="box_5_center_bottom" />
+    <joint name="box_5_center_bottom_joint" type="fixed">
+        <parent link="box_5" />
+        <child link="box_5_center_bottom" />
+        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.013" />
+    </joint>
+    <link name="box_5_lower_left_top" />
+    <joint name="box_5_lower_left_top_joint" type="fixed">
+        <parent link="box_5" />
+        <child link="box_5_lower_left_top" />
+        <origin rpy="0 0 0" xyz="0 0 0.103" />
+    </joint>
+    <link name="box_5_lower_right_top" />
+    <joint name="box_5_lower_right_top_joint" type="fixed">
+        <parent link="box_5" />
+        <child link="box_5_lower_right_top" />
+        <origin rpy="0 0 0" xyz="0.335 0 0.103" />
+    </joint>
+    <link name="box_5_upper_left_top" />
+    <joint name="box_5_upper_left_top_joint" type="fixed">
+        <parent link="box_5" />
+        <child link="box_5_upper_left_top" />
+        <origin rpy="0 0 0" xyz="0 0.335 0.103" />
+    </joint>
+    <link name="box_5_upper_right_top" />
+    <joint name="box_5_upper_right_top_joint" type="fixed">
+        <parent link="box_5" />
+        <child link="box_5_upper_right_top" />
+        <origin rpy="0 0 0" xyz="0.335 0.335 0.103" />
+    </joint>
+    <link name="box_5_center_top" />
+    <joint name="box_5_center_top_joint" type="fixed">
+        <parent link="box_5" />
+        <child link="box_5_center_top" />
+        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.133" />
+    </joint>
+    <link name="box_9">
+        <!-- w is in x, l is in y, h is in z -->
+        <visual>
+            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
+            <geometry>
+                <box size="0.335 0.335 0.013" />
+            </geometry>
+            <material name="orange">
+                <color rgba="1 0.5088 0.0468 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
+            <geometry>
+                <box size="0.335 0.335 0.013" />
+            </geometry>
+        </collision>
+        <!-- This is required for Gazebo. -->
+        <inertial>
+            <mass value="1.0" />
+            <origin rpy="0 0 0" xyz="0.1675 0.335 0.0065" />
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+        </inertial>
+    </link>
+    <gazebo reference="box_9">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+    <joint name="box_9" type="fixed">
+        <parent link="rack_t5_lower" />
+        <child link="box_9" />
+        <axis xyz="0 0 1" />
+        <origin rpy="0 0 0" xyz="0.43 0 0" />
+    </joint>
+    <link name="box_9_frontside">
+        <!-- w is in x, l is in y, h is in z -->
+        <visual>
+            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.091" />
+            <geometry>
+                <box size="0.335 0.017 0.182" />
+            </geometry>
+            <material name="orange">
+                <color rgba="1 0.5088 0.0468 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.091" />
+            <geometry>
+                <box size="0.335 0.017 0.182" />
+            </geometry>
+        </collision>
+        <!-- This is required for Gazebo. -->
+        <inertial>
+            <mass value="1.0" />
+            <origin rpy="0 0 0" xyz="0.1675 0.017 0.091" />
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+        </inertial>
+    </link>
+    <gazebo reference="box_9_frontside">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+    <joint name="box_9_frontside" type="fixed">
+        <parent link="box_9" />
+        <child link="box_9_frontside" />
+        <axis xyz="0 0 1" />
+        <origin rpy="0 0 0" xyz="0 0 0.013" />
+    </joint>
+    <link name="box_9_backside">
+        <!-- w is in x, l is in y, h is in z -->
+        <visual>
+            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.091" />
+            <geometry>
+                <box size="0.335 0.017 0.182" />
+            </geometry>
+            <material name="orange">
+                <color rgba="1 0.5088 0.0468 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.091" />
+            <geometry>
+                <box size="0.335 0.017 0.182" />
+            </geometry>
+        </collision>
+        <!-- This is required for Gazebo. -->
+        <inertial>
+            <mass value="1.0" />
+            <origin rpy="0 0 0" xyz="0.1675 0.017 0.091" />
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+        </inertial>
+    </link>
+    <gazebo reference="box_9_backside">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+    <joint name="box_9_backside" type="fixed">
+        <parent link="box_9" />
+        <child link="box_9_backside" />
+        <axis xyz="0 0 1" />
+        <origin rpy="0 0 0" xyz="0 0.318 0.013" />
+    </joint>
+    <link name="box_9_leftside">
+        <!-- w is in x, l is in y, h is in z -->
+        <visual>
+            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.091" />
+            <geometry>
+                <box size="0.017 0.30100000000000005 0.182" />
+            </geometry>
+            <material name="orange">
+                <color rgba="1 0.5088 0.0468 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.091" />
+            <geometry>
+                <box size="0.017 0.30100000000000005 0.182" />
+            </geometry>
+        </collision>
+        <!-- This is required for Gazebo. -->
+        <inertial>
+            <mass value="1.0" />
+            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.091" />
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+        </inertial>
+    </link>
+    <gazebo reference="box_9_leftside">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+    <joint name="box_9_leftside" type="fixed">
+        <parent link="box_9" />
+        <child link="box_9_leftside" />
+        <axis xyz="0 0 1" />
+        <origin rpy="0 0 0" xyz="0 0.017  0.013" />
+    </joint>
+    <link name="box_9_rightside">
+        <!-- w is in x, l is in y, h is in z -->
+        <visual>
+            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.091" />
+            <geometry>
+                <box size="0.017 0.30100000000000005 0.182" />
+            </geometry>
+            <material name="orange">
+                <color rgba="1 0.5088 0.0468 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.091" />
+            <geometry>
+                <box size="0.017 0.30100000000000005 0.182" />
+            </geometry>
+        </collision>
+        <!-- This is required for Gazebo. -->
+        <inertial>
+            <mass value="1.0" />
+            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.091" />
+            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+        </inertial>
+    </link>
+    <gazebo reference="box_9_rightside">
+        <material>Gazebo/Orange</material>
+    </gazebo>
+    <joint name="box_9_rightside" type="fixed">
+        <parent link="box_9" />
+        <child link="box_9_rightside" />
+        <axis xyz="0 0 1" />
+        <origin rpy="0 0 0" xyz="0.318      0.017      0.013" />
+    </joint>
+    <link name="box_9_bottom" />
+    <joint name="box_9_bottom_joint" type="fixed">
+        <parent link="box_9" />
+        <child link="box_9_bottom" />
+        <origin rpy="0 0 0" xyz="0.017 0.017 0.013" />
+    </joint>
+    <link name="box_9_center_bottom" />
+    <joint name="box_9_center_bottom_joint" type="fixed">
+        <parent link="box_9" />
+        <child link="box_9_center_bottom" />
+        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.013" />
+    </joint>
+    <link name="box_9_lower_left_top" />
+    <joint name="box_9_lower_left_top_joint" type="fixed">
+        <parent link="box_9" />
+        <child link="box_9_lower_left_top" />
+        <origin rpy="0 0 0" xyz="0 0 0.195" />
+    </joint>
+    <link name="box_9_lower_right_top" />
+    <joint name="box_9_lower_right_top_joint" type="fixed">
+        <parent link="box_9" />
+        <child link="box_9_lower_right_top" />
+        <origin rpy="0 0 0" xyz="0.335 0 0.195" />
+    </joint>
+    <link name="box_9_upper_left_top" />
+    <joint name="box_9_upper_left_top_joint" type="fixed">
+        <parent link="box_9" />
+        <child link="box_9_upper_left_top" />
+        <origin rpy="0 0 0" xyz="0 0.335 0.195" />
+    </joint>
+    <link name="box_9_upper_right_top" />
+    <joint name="box_9_upper_right_top_joint" type="fixed">
+        <parent link="box_9" />
+        <child link="box_9_upper_right_top" />
+        <origin rpy="0 0 0" xyz="0.335 0.335 0.195" />
+    </joint>
+    <link name="box_9_center_top" />
+    <joint name="box_9_center_top_joint" type="fixed">
+        <parent link="box_9" />
+        <child link="box_9_center_top" />
+        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.225" />
+    </joint>
     <link name="box_20">
         <!-- w is in x, l is in y, h is in z -->
         <visual>
@@ -2201,420 +2615,6 @@
         <child link="box_41_center_top" />
         <origin rpy="0 0 0" xyz="0.1675 0.1675 0.133" />
     </joint>
-    <link name="box_5">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
-            <geometry>
-                <box size="0.335 0.335 0.013" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
-            <geometry>
-                <box size="0.335 0.335 0.013" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.335 0.0065" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_5">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_5" type="fixed">
-        <parent link="rack_t2_lower" />
-        <child link="box_5" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0.08499999999999996 0 0" />
-    </joint>
-    <link name="box_5_frontside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.017 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_5_frontside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_5_frontside" type="fixed">
-        <parent link="box_5" />
-        <child link="box_5_frontside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0 0.013" />
-    </joint>
-    <link name="box_5_backside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.017 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_5_backside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_5_backside" type="fixed">
-        <parent link="box_5" />
-        <child link="box_5_backside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0.318 0.013" />
-    </joint>
-    <link name="box_5_leftside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_5_leftside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_5_leftside" type="fixed">
-        <parent link="box_5" />
-        <child link="box_5_leftside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0.017  0.013" />
-    </joint>
-    <link name="box_5_rightside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_5_rightside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_5_rightside" type="fixed">
-        <parent link="box_5" />
-        <child link="box_5_rightside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0.318      0.017      0.013" />
-    </joint>
-    <link name="box_5_bottom" />
-    <joint name="box_5_bottom_joint" type="fixed">
-        <parent link="box_5" />
-        <child link="box_5_bottom" />
-        <origin rpy="0 0 0" xyz="0.017 0.017 0.013" />
-    </joint>
-    <link name="box_5_center_bottom" />
-    <joint name="box_5_center_bottom_joint" type="fixed">
-        <parent link="box_5" />
-        <child link="box_5_center_bottom" />
-        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.013" />
-    </joint>
-    <link name="box_5_lower_left_top" />
-    <joint name="box_5_lower_left_top_joint" type="fixed">
-        <parent link="box_5" />
-        <child link="box_5_lower_left_top" />
-        <origin rpy="0 0 0" xyz="0 0 0.103" />
-    </joint>
-    <link name="box_5_lower_right_top" />
-    <joint name="box_5_lower_right_top_joint" type="fixed">
-        <parent link="box_5" />
-        <child link="box_5_lower_right_top" />
-        <origin rpy="0 0 0" xyz="0.335 0 0.103" />
-    </joint>
-    <link name="box_5_upper_left_top" />
-    <joint name="box_5_upper_left_top_joint" type="fixed">
-        <parent link="box_5" />
-        <child link="box_5_upper_left_top" />
-        <origin rpy="0 0 0" xyz="0 0.335 0.103" />
-    </joint>
-    <link name="box_5_upper_right_top" />
-    <joint name="box_5_upper_right_top_joint" type="fixed">
-        <parent link="box_5" />
-        <child link="box_5_upper_right_top" />
-        <origin rpy="0 0 0" xyz="0.335 0.335 0.103" />
-    </joint>
-    <link name="box_5_center_top" />
-    <joint name="box_5_center_top_joint" type="fixed">
-        <parent link="box_5" />
-        <child link="box_5_center_top" />
-        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.133" />
-    </joint>
-    <link name="box_9">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
-            <geometry>
-                <box size="0.335 0.335 0.013" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
-            <geometry>
-                <box size="0.335 0.335 0.013" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.335 0.0065" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_9">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_9" type="fixed">
-        <parent link="rack_t2_lower" />
-        <child link="box_9" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0.43 0 0" />
-    </joint>
-    <link name="box_9_frontside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.091" />
-            <geometry>
-                <box size="0.335 0.017 0.182" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.091" />
-            <geometry>
-                <box size="0.335 0.017 0.182" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.017 0.091" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_9_frontside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_9_frontside" type="fixed">
-        <parent link="box_9" />
-        <child link="box_9_frontside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0 0.013" />
-    </joint>
-    <link name="box_9_backside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.091" />
-            <geometry>
-                <box size="0.335 0.017 0.182" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.091" />
-            <geometry>
-                <box size="0.335 0.017 0.182" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.017 0.091" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_9_backside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_9_backside" type="fixed">
-        <parent link="box_9" />
-        <child link="box_9_backside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0.318 0.013" />
-    </joint>
-    <link name="box_9_leftside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.091" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.182" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.091" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.182" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.091" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_9_leftside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_9_leftside" type="fixed">
-        <parent link="box_9" />
-        <child link="box_9_leftside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0.017  0.013" />
-    </joint>
-    <link name="box_9_rightside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.091" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.182" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.091" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.182" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.091" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_9_rightside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_9_rightside" type="fixed">
-        <parent link="box_9" />
-        <child link="box_9_rightside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0.318      0.017      0.013" />
-    </joint>
-    <link name="box_9_bottom" />
-    <joint name="box_9_bottom_joint" type="fixed">
-        <parent link="box_9" />
-        <child link="box_9_bottom" />
-        <origin rpy="0 0 0" xyz="0.017 0.017 0.013" />
-    </joint>
-    <link name="box_9_center_bottom" />
-    <joint name="box_9_center_bottom_joint" type="fixed">
-        <parent link="box_9" />
-        <child link="box_9_center_bottom" />
-        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.013" />
-    </joint>
-    <link name="box_9_lower_left_top" />
-    <joint name="box_9_lower_left_top_joint" type="fixed">
-        <parent link="box_9" />
-        <child link="box_9_lower_left_top" />
-        <origin rpy="0 0 0" xyz="0 0 0.195" />
-    </joint>
-    <link name="box_9_lower_right_top" />
-    <joint name="box_9_lower_right_top_joint" type="fixed">
-        <parent link="box_9" />
-        <child link="box_9_lower_right_top" />
-        <origin rpy="0 0 0" xyz="0.335 0 0.195" />
-    </joint>
-    <link name="box_9_upper_left_top" />
-    <joint name="box_9_upper_left_top_joint" type="fixed">
-        <parent link="box_9" />
-        <child link="box_9_upper_left_top" />
-        <origin rpy="0 0 0" xyz="0 0.335 0.195" />
-    </joint>
-    <link name="box_9_upper_right_top" />
-    <joint name="box_9_upper_right_top_joint" type="fixed">
-        <parent link="box_9" />
-        <child link="box_9_upper_right_top" />
-        <origin rpy="0 0 0" xyz="0.335 0.335 0.195" />
-    </joint>
-    <link name="box_9_center_top" />
-    <joint name="box_9_center_top_joint" type="fixed">
-        <parent link="box_9" />
-        <child link="box_9_center_top" />
-        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.225" />
-    </joint>
     <link name="box_44">
         <!-- w is in x, l is in y, h is in z -->
         <visual>
@@ -3027,420 +3027,6 @@
     <joint name="box_43_center_top_joint" type="fixed">
         <parent link="box_43" />
         <child link="box_43_center_top" />
-        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.133" />
-    </joint>
-    <link name="box_3">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
-            <geometry>
-                <box size="0.335 0.335 0.013" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
-            <geometry>
-                <box size="0.335 0.335 0.013" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.335 0.0065" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_3">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_3" type="fixed">
-        <parent link="rack_t1_lower" />
-        <child link="box_3" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0.08499999999999996 0 0" />
-    </joint>
-    <link name="box_3_frontside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.017 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_3_frontside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_3_frontside" type="fixed">
-        <parent link="box_3" />
-        <child link="box_3_frontside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0 0.013" />
-    </joint>
-    <link name="box_3_backside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.017 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_3_backside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_3_backside" type="fixed">
-        <parent link="box_3" />
-        <child link="box_3_backside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0.318 0.013" />
-    </joint>
-    <link name="box_3_leftside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_3_leftside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_3_leftside" type="fixed">
-        <parent link="box_3" />
-        <child link="box_3_leftside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0.017  0.013" />
-    </joint>
-    <link name="box_3_rightside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_3_rightside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_3_rightside" type="fixed">
-        <parent link="box_3" />
-        <child link="box_3_rightside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0.318      0.017      0.013" />
-    </joint>
-    <link name="box_3_bottom" />
-    <joint name="box_3_bottom_joint" type="fixed">
-        <parent link="box_3" />
-        <child link="box_3_bottom" />
-        <origin rpy="0 0 0" xyz="0.017 0.017 0.013" />
-    </joint>
-    <link name="box_3_center_bottom" />
-    <joint name="box_3_center_bottom_joint" type="fixed">
-        <parent link="box_3" />
-        <child link="box_3_center_bottom" />
-        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.013" />
-    </joint>
-    <link name="box_3_lower_left_top" />
-    <joint name="box_3_lower_left_top_joint" type="fixed">
-        <parent link="box_3" />
-        <child link="box_3_lower_left_top" />
-        <origin rpy="0 0 0" xyz="0 0 0.103" />
-    </joint>
-    <link name="box_3_lower_right_top" />
-    <joint name="box_3_lower_right_top_joint" type="fixed">
-        <parent link="box_3" />
-        <child link="box_3_lower_right_top" />
-        <origin rpy="0 0 0" xyz="0.335 0 0.103" />
-    </joint>
-    <link name="box_3_upper_left_top" />
-    <joint name="box_3_upper_left_top_joint" type="fixed">
-        <parent link="box_3" />
-        <child link="box_3_upper_left_top" />
-        <origin rpy="0 0 0" xyz="0 0.335 0.103" />
-    </joint>
-    <link name="box_3_upper_right_top" />
-    <joint name="box_3_upper_right_top_joint" type="fixed">
-        <parent link="box_3" />
-        <child link="box_3_upper_right_top" />
-        <origin rpy="0 0 0" xyz="0.335 0.335 0.103" />
-    </joint>
-    <link name="box_3_center_top" />
-    <joint name="box_3_center_top_joint" type="fixed">
-        <parent link="box_3" />
-        <child link="box_3_center_top" />
-        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.133" />
-    </joint>
-    <link name="box_4">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
-            <geometry>
-                <box size="0.335 0.335 0.013" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.1675 0.0065" />
-            <geometry>
-                <box size="0.335 0.335 0.013" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.335 0.0065" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_4">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_4" type="fixed">
-        <parent link="rack_t1_lower" />
-        <child link="box_4" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0.43 0 0" />
-    </joint>
-    <link name="box_4_frontside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.017 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_4_frontside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_4_frontside" type="fixed">
-        <parent link="box_4" />
-        <child link="box_4_frontside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0 0.013" />
-    </joint>
-    <link name="box_4_backside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.1675 0.0085 0.045" />
-            <geometry>
-                <box size="0.335 0.017 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.1675 0.017 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_4_backside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_4_backside" type="fixed">
-        <parent link="box_4" />
-        <child link="box_4_backside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0.318 0.013" />
-    </joint>
-    <link name="box_4_leftside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_4_leftside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_4_leftside" type="fixed">
-        <parent link="box_4" />
-        <child link="box_4_leftside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0 0.017  0.013" />
-    </joint>
-    <link name="box_4_rightside">
-        <!-- w is in x, l is in y, h is in z -->
-        <visual>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-            <material name="orange">
-                <color rgba="1 0.5088 0.0468 1" />
-            </material>
-        </visual>
-        <collision>
-            <origin rpy="0 0 0" xyz="0.0085 0.15050000000000002 0.045" />
-            <geometry>
-                <box size="0.017 0.30100000000000005 0.09" />
-            </geometry>
-        </collision>
-        <!-- This is required for Gazebo. -->
-        <inertial>
-            <mass value="1.0" />
-            <origin rpy="0 0 0" xyz="0.0085 0.30100000000000005 0.045" />
-            <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
-        </inertial>
-    </link>
-    <gazebo reference="box_4_rightside">
-        <material>Gazebo/Orange</material>
-    </gazebo>
-    <joint name="box_4_rightside" type="fixed">
-        <parent link="box_4" />
-        <child link="box_4_rightside" />
-        <axis xyz="0 0 1" />
-        <origin rpy="0 0 0" xyz="0.318      0.017      0.013" />
-    </joint>
-    <link name="box_4_bottom" />
-    <joint name="box_4_bottom_joint" type="fixed">
-        <parent link="box_4" />
-        <child link="box_4_bottom" />
-        <origin rpy="0 0 0" xyz="0.017 0.017 0.013" />
-    </joint>
-    <link name="box_4_center_bottom" />
-    <joint name="box_4_center_bottom_joint" type="fixed">
-        <parent link="box_4" />
-        <child link="box_4_center_bottom" />
-        <origin rpy="0 0 0" xyz="0.1675 0.1675 0.013" />
-    </joint>
-    <link name="box_4_lower_left_top" />
-    <joint name="box_4_lower_left_top_joint" type="fixed">
-        <parent link="box_4" />
-        <child link="box_4_lower_left_top" />
-        <origin rpy="0 0 0" xyz="0 0 0.103" />
-    </joint>
-    <link name="box_4_lower_right_top" />
-    <joint name="box_4_lower_right_top_joint" type="fixed">
-        <parent link="box_4" />
-        <child link="box_4_lower_right_top" />
-        <origin rpy="0 0 0" xyz="0.335 0 0.103" />
-    </joint>
-    <link name="box_4_upper_left_top" />
-    <joint name="box_4_upper_left_top_joint" type="fixed">
-        <parent link="box_4" />
-        <child link="box_4_upper_left_top" />
-        <origin rpy="0 0 0" xyz="0 0.335 0.103" />
-    </joint>
-    <link name="box_4_upper_right_top" />
-    <joint name="box_4_upper_right_top_joint" type="fixed">
-        <parent link="box_4" />
-        <child link="box_4_upper_right_top" />
-        <origin rpy="0 0 0" xyz="0.335 0.335 0.103" />
-    </joint>
-    <link name="box_4_center_top" />
-    <joint name="box_4_center_top_joint" type="fixed">
-        <parent link="box_4" />
-        <child link="box_4_center_top" />
         <origin rpy="0 0 0" xyz="0.1675 0.1675 0.133" />
     </joint>
     <link name="box_22">
@@ -4606,7 +4192,7 @@
         <visual>
             <origin rpy="0 0 3.141592653589793" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/base.dae" />
+                <mesh filename="package://ur_description/meshes/ur5e/visual/base.stl" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -4628,7 +4214,7 @@
         <visual>
             <origin rpy="0 0 3.141592653589793" xyz="0 0 0" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/shoulder.dae" />
+                <mesh filename="package://ur_description/meshes/ur5e/visual/shoulder.stl" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -4650,7 +4236,7 @@
         <visual>
             <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.138" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/upperarm.dae" />
+                <mesh filename="package://ur_description/meshes/ur5e/visual/upperarm.stl" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -4672,7 +4258,7 @@
         <visual>
             <origin rpy="1.5707963267948966 0 -1.5707963267948966" xyz="0 0 0.007" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/forearm.dae" />
+                <mesh filename="package://ur_description/meshes/ur5e/visual/forearm.stl" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -4695,7 +4281,7 @@
             <!-- TODO: Move this to a parameter -->
             <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.127" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/wrist1.dae" />
+                <mesh filename="package://ur_description/meshes/ur5e/visual/wrist1.stl" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -4717,7 +4303,7 @@
         <visual>
             <origin rpy="0 0 0" xyz="0 0 -0.0997" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/wrist2.dae" />
+                <mesh filename="package://ur_description/meshes/ur5e/visual/wrist2.stl" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
@@ -4739,7 +4325,7 @@
         <visual>
             <origin rpy="1.5707963267948966 0 0" xyz="0 0 -0.0989" />
             <geometry>
-                <mesh filename="package://ur_description/meshes/ur5e/visual/wrist3.dae" />
+                <mesh filename="package://ur_description/meshes/ur5e/visual/wrist3.stl" />
             </geometry>
             <material name="LightGrey">
                 <color rgba="0.7 0.7 0.7 1.0" />
