@@ -125,7 +125,7 @@
 
   <!-- Table for mounting UR5e -->
   <xacro:include filename="$(find nedo3_description)/urdf/table.urdf.xacro"/>
-  <xacro:table prefix="arm_"
+  <xacro:table prefix="arm_table_"
 	       width="${table_w}" length="${table_l}" height="${table_h}"
 	       parent="ground">
     <origin xyz="${table_x} ${table_y} 0" rpy="0 0 0"/>
